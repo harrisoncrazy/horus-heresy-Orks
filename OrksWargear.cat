@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="33d7-0b5a-7a0f-61e0" name="OrksWargear" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="111" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="37e2-5894-ba35-4116">
+      <profiles>
+        <profile name="&apos;Eavy Armour" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="7e08-c5c8-e629-49d9">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">‘Eavy armour confers a 4+ Armour Save. If a majority of models in a unit with the Light Sub-type are equipped with ‘eavy armour, the entire unit loses the Light Sub-type.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="0e8f-cdf0-a592-165e">
+      <profiles>
+        <profile name="Ammo Runt" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="3e5f-ea1f-2972-d565">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One Use Only. A unit with an ammo runt can re-roll one To Hit roll when shooting.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="6d9f-512c-d36c-4c4c">
+      <profiles>
+        <profile name="Big Choppa" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b17b-b025-5091-ba85">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Choppin&apos; (5+), Reach (1), Two-handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Reach (X)" id="995f-20fe-1be6-d44f" hidden="false" type="rule" targetId="19bf-62a2-5737-890b">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Choppin&apos; (X)" id="8ff7-4b2a-4a78-2c09" hidden="false" type="rule" targetId="ee2e-2fef-bf1b-c365">
+          <modifiers>
+            <modifier type="set" value="Choppin&apos; (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Two-handed" id="fe6c-1239-efcf-f040" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="bc5b-1b73-a0eb-b1d9">
+      <profiles>
+        <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ff61-2f00-e5bb-2c06">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Concussive (X)" id="d72c-d739-884f-8327" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
+          <modifiers>
+            <modifier type="set" value="Concussive (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="e529-4fe1-c563-2ab6">
+      <profiles>
+        <profile name="Bosspole" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="69bb-90e1-31b1-6557">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a bosspole gains the Chosen Warriors special rule, unless the model already has the Character Unit Sub-type. In addition, a unit that includes at least one model with a bosspole adds +1 to the Wounds score used to determine if they win a Combat in the Assault phase. Furthermore, a unit that contains one or more bosspoles may choose to inflict a single Strength 4 AP - hit on the unit to re-roll a failed Morale check.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Burna (Melee)" hidden="false" id="f270-cf59-6da2-80df">
+      <profiles>
+        <profile name="Burna (Melee" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b6ea-b1e0-1426-34e8">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (5+), Two-handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="4d9c-60ce-eb96-4029" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Two-handed" id="bfe9-e4e2-661e-2499" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Burna (Ranged)" hidden="false" id="17a0-e29e-93f6-1363">
+      <profiles>
+        <profile name="Burna (Ranged)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="8a95-d007-14f0-f7f0">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Template</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Template Weapons" id="4665-be83-dc27-db66" hidden="false" type="rule" targetId="5e0e-88e6-db81-5a70"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="859e-50d9-4578-4f4b">
+      <profiles>
+        <profile name="Choppa" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="46e9-fe91-39bd-f3e7">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Choppin&apos; (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Choppin&apos; (X)" id="507c-4df8-e06f-a15b" hidden="false" type="rule" targetId="ee2e-2fef-bf1b-c365">
+          <modifiers>
+            <modifier type="set" value="Choppin&apos; (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="2ed4-a9ea-18a0-1428">
+      <profiles>
+        <profile name="Cybork Body" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="9e74-c816-7fb8-15e7">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a cybork body gains the Feel No Pain (6+) special rule. If they gain another version of the Feel No Pain (X) special rule through other means, a model with a cybork body improves the value in brackets by 1 instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Feel No Pain (X)" id="488a-7544-f9c0-62e1" hidden="false" type="rule" targetId="ec46-ff29-32e0-c2aa">
+          <modifiers>
+            <modifier type="set" value="Feel No Pain (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gitfinda" hidden="false" id="0cbb-65dd-daea-e2d5">
+      <profiles>
+        <profile name="Gitfinda" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="b126-4a8d-6203-9d1b">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a gitfinda that remained stationary during its Movement phase improves its Ballistic Skill by +1 during the controlling player’s following Shooting phase. In addition, a model with a gitfinda ignores the penalty to Ballistic Skill while the Night Fighting rules are in effect.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grot Oiler" hidden="false" id="7c2d-9702-a9cf-42c2">
+      <profiles>
+        <profile name="Grot Oiler" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="b9e7-76c9-8f2d-b5ec">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One Use Only. A grot oiler allows a Mek to re-roll a failed Battlesmith roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Iron Gob/Big Horn" hidden="false" id="75cc-69bb-9c31-659b">
+      <profiles>
+        <profile name="Iron Gob/Big Horn" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="bd96-fcfe-e3a0-141c">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with big horns or an iron gob gains the Hammer of Wrath (1) special rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Hammer of Wrath (X)" id="093d-8c0d-c29d-00ea" hidden="false" type="rule" targetId="aec0-c3aa-1e4e-1779">
+          <modifiers>
+            <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="3dc3-7577-e4d7-1768">
+      <profiles>
+        <profile name="Rokkit Launcha (Secondary)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7464-3229-1557-1597">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shoota (Primary)" id="583e-3f9e-4408-ceb3" hidden="false" type="profile" targetId="e9f3-c06a-8fd0-edea"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kombi-weapon with Skorcha" hidden="false" id="59e6-4a35-2135-bf95">
+      <profiles>
+        <profile name="Skorcha (Secondary)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="987f-364c-4b1a-9a42">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">43</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shoota (Primary)" id="ffd4-1714-ebf5-3876" hidden="false" type="profile" targetId="e9f3-c06a-8fd0-edea"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="071c-4906-9249-4b8f">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+      </costs>
+      <profiles>
+        <profile name="Kustom Force Field" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="aaab-73ff-8e1a-604c">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The bearer, and all models within 6&quot;, receive a 5+ Invulnerable Save against any shooting attacks. If the bearer is embarked in a Vehicle, then the Vehicle receives a 5+ Invulnerable Save against any shooting attacks instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kustom Mega-Blasta" hidden="false" id="d3a4-7288-ca56-0a69">
+      <profiles>
+        <profile name="Kustom Mega-Blasta" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="47dd-34d2-9fab-9e12">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blind, Breaching (4+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blind" id="03f7-eca8-abd7-93d4" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+        <infoLink name="Breaching (X)" id="b1f0-ef98-798c-935a" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Gets Hot" id="3f58-d4bc-c577-4081" hidden="false" type="rule" targetId="679f-9d97-5ace-a652"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kustom Mega-Slugga" hidden="false" id="5a36-ce3e-69bb-e7cd">
+      <profiles>
+        <profile name="Kustom Mega-Slugga" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="695b-6907-c6fb-5115">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (4+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blind" id="87bb-09ff-5316-f6b8" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+        <infoLink name="Breaching (X)" id="a256-fc4a-0586-0b64" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Gets Hot" id="42a5-5592-5a0e-cac8" hidden="false" type="rule" targetId="679f-9d97-5ace-a652"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mek&apos;s Tools" hidden="false" id="08f2-8b6a-b79a-43a3">
+      <profiles>
+        <profile name="Mek&apos;s Tools" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="187e-296b-5412-24a3">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with Mek’s Tools has the Battlesmith (5+) special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Battlesmith (X)" id="83bc-7f77-2071-efec" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+          <modifiers>
+            <modifier type="set" value="Battlesmith (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="b17e-e9fa-10f9-f894">
+      <profiles>
+        <profile name="Power Klaw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ccd4-e179-e8d2-eb7f">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+), Unweidly, Specialist Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Unwieldy" id="c9ee-b34f-d8f0-4e28" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Rending (X)" id="d765-5504-ea85-ac0d" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Specialist Weapon" id="6cf1-64ad-52c1-4d73" hidden="false" type="rule" targetId="1a1f-3c9b-b097-5886"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="9f68-4127-9847-b104">
+      <profiles>
+        <profile name="Rokkit Launcha" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7078-603d-4435-4985">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="f835-0743-76b3-b570">
+      <profiles>
+        <profile name="Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9f00-efab-0d12-6c6b">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="43fa-ff46-acd2-c406">
+      <profiles>
+        <profile name="Slugga" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="71fe-a7e4-3bff-fce2">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stikkbombs" hidden="false" id="f0af-b0c7-99cc-b4b5">
+      <profiles>
+        <profile name="Stikkbombs" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="c9d3-ab80-08b0-8a9c">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Using stikkbombs does not count as a Shooting Attack and their effects are entirely covered by the rules presented here.
+
+A unit that includes at least one model with stikkbombs makes attacks at its normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult Terrain or Dangerous Terrain when resolving a Charge through Difficult Terrain or Dangerous Terrain.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tankhammer" hidden="false" id="3c08-0e6e-f9a1-2461">
+      <profiles>
+        <profile name="Tankhammer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0606-17b1-400e-0cc8">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Unweildy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Unwieldy" id="4250-ee03-d579-c8c0" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Two-handed" id="7d56-b288-0153-d5f1" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="2039-2c71-92f5-2bcc">
+      <profiles>
+        <profile name="Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4e01-837c-3622-67a8">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="898a-a910-ae1c-5e2d" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Orks" id="4de6-1375-44e2-d2b0" targetId="ac90-ee69-0e59-00f2"/>
+  </catalogueLinks>
+</catalogue>
