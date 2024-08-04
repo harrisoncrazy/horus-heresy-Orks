@@ -330,5 +330,285 @@
         <infoLink name="Twin-linked" id="2e07-908b-027c-47a0" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bomb Squig" hidden="false" id="8f09-2e54-70d1-96c5">
+      <profiles>
+        <profile name="Bomb Squig" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a8de-c07a-d701-099d">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armoubane (Ranged), One Use, Scuttle Scuttle Blam!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="f526-0291-a77b-1d3d" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Ranged)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="One Use/One Shot" id="1ed5-e624-8a64-b302" hidden="false" type="rule" targetId="df0c-5423-b892-491e">
+          <modifiers>
+            <modifier type="set" value="One Use" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="New Info (link)" id="d013-2697-94dc-ee29" hidden="false" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="4c94-61b7-d282-8173">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="79f1-832b-f054-9421">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="f8b3-7e2e-112b-d909">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b613-32af-acf1-ce7d">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="8510-6a22-b68c-58e1">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6c73-7fe9-3313-be91">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="4459-2139-ee21-6af1">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="283c-c5a2-1ff3-f06c">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="c85c-137e-a008-ba16">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="8898-5c9f-7131-b663">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="bdae-686c-02f3-f6eb">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="36e3-544f-66ee-7d68">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="8ef3-2a9b-ef5b-737e">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ed5f-eab1-6dca-fd77">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="7a5e-2346-10a7-3ac1">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f880-0a7c-38ca-54ac">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="8d60-5bbb-0861-e16b">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4d72-ae18-47dd-0ac5">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="4346-a388-419a-345a">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2f3e-8bbc-fbc7-1c53">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="7520-9aa9-4ba6-2d0a">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6294-4767-f42f-f8bb">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="f16d-7457-1492-19a2">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6119-a0dc-daa2-658b">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="6e54-04f2-5c33-af10">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7688-095a-f7e3-40ec">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="f139-5dbc-0092-dcb0">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6e30-215f-0d00-c8a1">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="3c0f-4296-13cb-a4a9">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="53d2-00a6-bcd1-5c5c">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="84d4-0529-3172-f4ca">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7fe3-af18-2cc9-676f">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="7db3-fec0-7cff-aab7">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a16e-22ce-9957-3ea7">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="b0b2-ff8e-8abe-43d9">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="750b-74cc-0f7b-7cdc">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="6bda-1996-2374-d7a0">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2e48-15cb-a3bf-9dc1">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="94ab-e937-b3c1-3951">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0619-b58b-d07e-06ba">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="fd5f-930c-660b-4ab2">
+      <profiles>
+        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5b0b-c67a-dbd5-d031">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Orks Library" id="c23a-c8da-ee87-7225" targetId="33d7-0b5a-7a0f-61e0"/>
+  </catalogueLinks>
 </catalogue>

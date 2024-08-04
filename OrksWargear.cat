@@ -521,5 +521,109 @@ on the weapon’s profile is otherwise better.</description>
     <rule name="Tank Hunters" id="cd03-5ee3-724f-7f45" hidden="false">
       <description>Attacks against Vehicles made by a model with this special rule have the Sunder special rule.</description>
     </rule>
+    <rule name="Bombs Away!" id="14d7-d2af-9868-9bda" hidden="false">
+      <description>A model with this special rule may use Bomb weapons even though it is not a Flyer. Follow the rules for Bombing Runs but ignore references to Flyers.</description>
+    </rule>
+    <rule name="Crushing Weight" id="b312-954c-b9ae-f31a" hidden="false">
+      <description>When the controlling player resolves a Ram Attack using a model with this special rule, targeting an enemy model that has the Vehicle Unit Type, then any Hits inflicted are always resolved at Strength 12. When resolving a Ram Attack against a unit that is not made up entirely of models with the Vehicle Unit Type, 6+D6 Str 10 Hits are inflicted instead.</description>
+    </rule>
+    <rule name="Don&apos;t Press Dat!" id="54bc-aff9-0a69-965a" hidden="false">
+      <description>Roll a D6 for each Vehicle with this special rule at the start of their Movement phase. On a roll of 1, the Vehicle must move directly forwards as far as possible. This may mean any passengers may not disembark this turn.</description>
+    </rule>
+    <rule name="Effigy" id="9754-be2b-5e58-12bd" hidden="false">
+      <description>A model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly units with the ‘Ere We Go! special rule and at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
+    </rule>
+    <rule name="Engine Damage" id="08c4-ca1a-24ac-a7ee" hidden="false">
+      <description>When a Vehicle with the Super-heavy Sub-type and this special rule suffers an Explodes result on the Vehicle Damage table, roll a D6. On the score of a 4+, it is Immobilised (as per the entry on the Vehicle Damage table) as well as suffering the effects of any other damage inflicted upon it. This ignores the normal immunity to such damage granted by the Super-heavy Sub-type.</description>
+    </rule>
+    <rule name="Full Speed Ahead!" id="2fa5-18b7-c6da-e7fa" hidden="false">
+      <description>A Vehicle with this special rule has a Movement value of 2D6 per turn, but always counts as moving at Combat Speed. The Vehicle’s movement ignores the effects of difficult terrain, but is affected by dangerous terrain as normal. When operating in squadrons, roll once for the movement of the entire squadron in each turn. If a double 1 is rolled to determine the Movement value, the Vehicle (or a single Vehicle in the squadron chosen by the controlling player) suffers a Penetrating hit.</description>
+    </rule>
+    <rule name="Kaboom" id="efc0-9201-fcb7-5153" hidden="false">
+      <description>When a model with this special rule loses its last Wound, but before it is removed as a casualty, all models both friendly and enemy within D6&quot; suffer an automatic Hit at the Strength of the model with this special rule and AP -.</description>
+    </rule>
+    <rule name="Lifta-Droppa" id="ab93-12e2-2853-0814" hidden="false">
+      <description>This weapon may only target models with the Vehicle Unit type that began the game with no more than 4 hull points. If the shot hits successfully, roll a D6 and apply the following result:
+
+D6      Result
+ 1          The target Vehicle suffers no damage but the Vehicle firing the lifta-droppa suffers a Glancing hit
+2-5        The target Vehicle is thrown D6&quot; in a random direction (roll a Scatter dice, re-rolling any hit results), stopping if it moves to within 1&quot; away from any other model, and takes D3 Glancing hits as it is flung about by the lifta-droppa beam.
+ 6           The target Vehicle is thrown 2D6&quot; in a random direction (roll a Scatter dice, re-rolling any hit results), stopping if it moves to within 1&quot; away from any other model, and suffers an Explodes! result on the Vehicle Damage table.</description>
+    </rule>
+    <rule name="Living Shield" id="0953-0278-4b8a-e926" hidden="false">
+      <description>For each Troops choice in a detachment (not including other Gretchin Mobs) you may include a single Gretchin Mob. Gretchin Mobs do not use up Force Organisation slots and as such may not fill compulsory slots. A Gretchin Mob and the Troops choice it was included with do not need to deploy together and always operate as separate units.</description>
+    </rule>
+    <rule name="Measured Strike" id="add4-d169-5ccf-4085" hidden="false">
+      <description>A model attacking with a weapon or profile that has this special rule may only make a single attack, regardless of the value of its Attacks Characteristic, any other special rules or whether it has Charged or is wielding more than one weapon.</description>
+    </rule>
+    <rule name="More Dakka (X)" id="3bd8-4c8c-4d65-4528" hidden="false">
+      <description>When making a shooting attack with a weapon with this special rule, for each roll of a natural 6 the weapon may make a number of additional shots with the same profile. The number of additional shots made is equal to the value of (X) that is included as part of this special rule. Roll To Hit as normal for the additional shots. These additional shots do not generate more shots.</description>
+    </rule>
+    <rule name="Orkish War Beast" id="d2d9-f85f-12bd-8fcc" hidden="false">
+      <description>As long as a model with this special rule is transporting at least five friendly models with the ‘Ere We Go! special rule, or is within 3&quot; of at least five friendly models with the ‘Ere We Go! special rule, it gains the Fearless special rule.</description>
+    </rule>
+    <rule name="Psycho-dakka-blasta" id="15b4-6076-d1f2-c13d" hidden="false">
+      <description>A weapon with this special rule makes three shooting attacks with listed profile each time it fires. Completely resolve each shooting attack before moving on to the next. A new target may be chosen for each attack. This special rule may never be used as part of a Reaction.</description>
+    </rule>
+    <rule name="Ramshackle" id="0d5c-898e-5d24-8f54" hidden="false">
+      <description>Roll a D6 each time a Vehicle with this special rule suffers a penetrating hit. On the roll of a 6, the Vehicle only suffers a glancing hit instead.</description>
+    </rule>
+    <rule name="Rolling/Walking Scrap Pile" id="88f6-b65d-5a77-030b" hidden="false">
+      <description>A model with this special rule has a 5+ Invulnerable Save against all attacks, except those of weapons with the Ordnance, Destroyer, or Armourbane (X) special rules or types.</description>
+    </rule>
+    <rule name="Scuttle Scuttle Blam!" id="1cc6-9b8c-fe95-f0ae" hidden="false">
+      <description>Bomb squigs always hit the target on a To Hit roll of 2 or more. Bomb squigs can be used as part of a Reaction but cannot be used to make Snap Shots, and cannot be used to attack Flyers, Skimmers or models with the Antigrav Sub-type.</description>
+    </rule>
+    <rule name="Snag" id="6414-1d19-a7dc-787a" hidden="false">
+      <description>A weapon with this special rule automatically causes an Immobilised result in addition to any other effects when it scores a glancing or penetrating hit against a Zooming Flyer.</description>
+    </rule>
+    <rule name="Scavengers" id="c42b-d342-19d0-5a7c" hidden="false">
+      <description>A unit that contains one or more models with this special rule may not make Sweeping Advances, but may add D3 inches to any Consolidation moves.</description>
+    </rule>
+    <rule name="Screamin&apos; Descent" id="f66e-00d8-9c02-1b1e" hidden="false">
+      <description>When making a Bombing Run attack with a weapon with this special rule, roll 2D6 and refer to the table below. 
+The roll is made after the Blast marker is placed but before it scatters.
+
+  D6          Result
+   2            Faster! Waaagh!: No bomb is dropped. The Flyer making the attack is Wrecked. When resolving the Crash and Burn for the Wrecked Flyer, center the Blast marker on the position occupied by the target model.
+   3            Clipped &apos;im!: No bomb is dropped. The Flyer making the attack and its target each suffer a single Strength 9 AP2 hit. All hits of Vehicles strike the Vehicle&apos;s side facing.
+  4-9          Just like dis!: Execute the Bombing Run attack normally
+ 10-12       Dakka-dakka-boom!: Execute the Bombing Run attack normally. In addition, the Flyer making the attack may shoot any of its assault weapons at the target model&apos;s unit. All hits on Vehicles strike the Vehicle&apos;s rear facing. Any unit that suffers one or more unsaved Wounds from any of the attacks must take a Pinning test. Note that the Flyer may shoot its assault weapons again in the Shooting phase and it can target a different unit </description>
+    </rule>
+    <rule name="Rumbler" id="bf81-342f-87fb-491d" hidden="false">
+      <description>A Vehicle with this special rule may re-roll failed Difficult and Dangerous Terrain tests as long as it is moving at combat speed.</description>
+    </rule>
+    <rule name="Shokk Attack" id="3829-16e1-14a5-5004" hidden="false">
+      <description>To fire the a weapon with this special rule, roll 2D6 to determine its Strength after placing the blast marker but before rolling the Scatter dice. If any double is rolled for the weapon’s Strength, consult the chart below.
+
+
+  D6          Result
+  1,1         Boom!: No shot is fired. Remove the firing model as a casualty.
+  2,2         Oops!: The opponent may choose the target of the weapon this turn, and place the large blast marker. The target can be a unit on the same side as the firing model.
+  3,3         Gah!: Resolve the shot upon the nearest unit to the firing model that is not locked in combat, be it friend or foe.
+  4,4         Sploosh!: Resolve the attack upon the target, but use the small blast marker. Any hits are resolved at AP - but have the Shell Shock (2) special rule.
+  5,5         Zoink!: No shot is fired. Immediately place the firing model in base contact with the closest model or point on the target unit, and treat them as being locked in combat. The target units must additionally test as if hit by a weapon with the Blind special rule.
+  6,6         Krakoom!: When resolving this attack, the weapon has the Vortex special rule.</description>
+    </rule>
+    <rule name="Unstable Field" id="4771-1571-65e4-c86e" hidden="false">
+      <description>Roll once each time a weapon with this special rule shoots to determine both the Strength and AP, after the target unit has been chosen. 
+
+For example, if you rolled a 3 for an Unstable Field shot, the shot would be resolved at Strength 3 AP 3</description>
+    </rule>
+    <rule name="Waaagh! Plane" id="85c6-c351-52fd-bdb6" hidden="false">
+      <description>A unit or model with this special rule may be placed into Combat Air Patrol at the beginning of the battle, before any models are deployed onto the table. Models assigned to Combat Air Patrol are not deployed onto the battlefield and remain in Reserves – however, no Reserves rolls are made for these models. Instead, the controlling player gains access to the Combat Air Patrol Advanced Reaction (PG 125 of the Libers)</description>
+    </rule>
+    <rule name="Whirrrr Click-Click" id="9fe7-7af8-1878-a946" hidden="false">
+      <description>If a double is rolled when determining the number of shots for any shooting attack made by a weapon with this special rule, then the weapon runs out of ammunition after that attack has been resolved, and cannot shoot again for the rest of the battle. This rule does not apply to the very first shooting attack the weapon makes in a battle (so it will fire a minimum of two times before running out of ammunition).</description>
+    </rule>
+    <rule name="Zzap" id="7877-ba26-5d1d-3814" hidden="false">
+      <description>If the Strength result rolled for a weapon with this special rule is above 10, the weapon Gets Hot on any roll of a 1, 2 or 3.</description>
+    </rule>
+    <rule name="Tellyported (X)" id="8917-2d90-c8e6-2e75" hidden="false">
+      <description>If the To Wound roll for attacks with this special rule is equal to or greater than the number listed in brackets associated with the specific rule, the attack causes Instant Death and is resolved at AP 1. Roll any viable Saves against this Instant Death-causing Wound separately and before any other Wounds the attack inflicts. Hits against Vehicles always cause a Penetrating Hit on a roll equal to or greater than the number listed in brackets, regardless of whether the armour penetration result was higher than the target’s armour value or not.</description>
+    </rule>
+    <rule name="Throttle (X)" id="40e7-d444-354e-2ef7" hidden="false">
+      <description>When fighting in a challenge, a model with this special rule or attacking with a weapon with this special rule reduces the Attacks Characteristic of their opponent by the number listed in brackets associated with the specific rule (to a minimum of 1).</description>
+    </rule>
   </sharedRules>
 </catalogue>
