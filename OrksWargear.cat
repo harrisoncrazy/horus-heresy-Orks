@@ -44,7 +44,7 @@
         <infoLink name="Two-handed" id="fe6c-1239-efcf-f040" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="bc5b-1b73-a0eb-b1d9">
+    <selectionEntry type="upgrade" import="true" name="Twin-Linked Big Shoota" hidden="false" id="bc5b-1b73-a0eb-b1d9">
       <profiles>
         <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ff61-2f00-e5bb-2c06">
           <characteristics>
@@ -61,7 +61,29 @@
             <modifier type="set" value="Concussive (1)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Twin-linked" id="4e4c-9cb9-c12f-b466" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="58b7-f4cd-0be8-2344">
+          <profiles>
+            <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f4c4-21cc-3987-e138">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Concussive (X)" id="35c0-b11e-9cd7-1125" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
+              <modifiers>
+                <modifier type="set" value="Concussive (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="e529-4fe1-c563-2ab6">
       <profiles>
@@ -208,7 +230,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="071c-4906-9249-4b8f">
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <profiles>
         <profile name="Kustom Force Field" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="aaab-73ff-8e1a-604c">
@@ -373,6 +395,163 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
       </profiles>
       <infoLinks>
         <infoLink name="Twin-linked" id="898a-a910-ae1c-5e2d" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="&apos;Ard Case" hidden="false" id="801f-1cc3-1508-5f97">
+      <profiles>
+        <profile name="&apos;Ard Case" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="7346-1f2a-ecde-69f8" page="">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with an ‘ard case loses the Open topped Sub-type. Access Points for the Vehicle with an ‘ard case will be listed in the unit entry.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Plates" hidden="false" id="2750-bc61-d766-c838">
+      <profiles>
+        <profile name="&apos;Eavy Plates" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="b38f-498b-0582-8d76">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with ‘eavy plates increases the Armour Value on its Front Facing by +2 and on its Side Facing by +1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deflektor" hidden="false" id="ecac-bc1a-ee75-cb74">
+      <profiles>
+        <profile name="Deflektor" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="7ddd-f8a5-3a2e-4fdb">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a deflektor gains a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lucky Tatttoos" hidden="false" id="b501-6733-5474-a442">
+      <profiles>
+        <profile name="Lucky Tatttoos" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="65a4-2413-474b-5f5e">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with lucky tattoos gains a 6+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mega Armour" hidden="false" id="d71f-3901-d77f-2d41">
+      <profiles>
+        <profile name="Mega Armour" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="cfef-e939-a7fb-bb01">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Mega armour confers a 2+ Armour Save, and includes a cybork body and an iron gob. A model in Mega Armour has the Slow and Purposeful special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="9761-4d75-6e40-438b" type="selectionEntry" targetId="75cc-69bb-9c31-659b"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Slow and Purposeful" id="d172-b120-8037-a8fd" hidden="false" type="rule" targetId="d69a-cfb3-db43-32c5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Waaagh! Banner" hidden="false" id="94c9-0176-994e-fded">
+      <profiles>
+        <profile name="Waaagh! Banner" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="e2a5-dd2e-6010-4ce7">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An army may only include a single Waaagh! banner. All models in a unit that includes a Waaagh! banner gain the Fearless special rule and the Line Sub-type as long as they remain part of that unit. All benefits are lost immediately if the model with the Waaagh! banner is removed as a casualty.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fearless" id="a4bf-2d2c-eadb-7b37" hidden="false" type="rule" targetId="b48c-d7e1-2a83-2f5b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Billowing Fumes" hidden="false" id="4e0c-2c3b-5322-7032">
+      <profiles>
+        <profile name="Billowing Fumes" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="f6e2-9e58-9ca5-a880">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with billowing fumes that chooses to move Flat Out gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boarding Plank" hidden="false" id="d71f-fccc-afe9-7255">
+      <profiles>
+        <profile name="Boarding Plank" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="eaed-42a6-ec9f-96bb">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">If a unit disembarks from a Vehicle with the Open-topped Sub-type and a boarding plank and declares a charge in the same turn, it adds +2 to its charge distance (to a maximum of 12)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Burna Exhaust" hidden="false" id="4c2d-59b6-2304-6c60">
+      <profiles>
+        <profile name="Burna Exhaust" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="dc90-452a-e994-34fa">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit, friend or foe, within 3&quot; of a Vehicle with a Burna Exhaust and at least partially within either its Side Facings or Rear Facing when the Vehicle begins moving suffers D3 Strength 4 AP 5 Hits. This attack counts as an attack from a Flame weapon.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Comms" hidden="false" id="a58a-87b3-de75-9c89">
+      <profiles>
+        <profile name="Comms" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="e2fd-b6be-812f-e033">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">As long as a model with comms is on the battlefield (but not in Reserves) then all Reserves rolls made by the controlling player may be re-rolled. In addition, a unit that includes at least one model with comms ignores the -1 penalty to Leadership imposed by the Night Fighting rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grabbin&apos; Klaw and Stikka" hidden="false" id="6f87-13f8-f630-1fc3">
+      <profiles>
+        <profile name="Grabbin&apos; Klaw and Stikka" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="a3f7-5a70-23e2-1939">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the beginning of the enemy Movement phase, nominate a single enemy Vehicle that is within 2&quot; of a Vehicle with a grabbin’ klaw, or within 12&quot; of a Vehicle with a stikka. On the roll of a 4+, that Vehicle may not move this turn. Flyers and Skimmers cannot be attacked by a grabbin’ klaw, and can only be attacked by a stikka if the result of the roll is a 6.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mine Layer" hidden="false" id="02f8-a28c-df7c-17b4">
+      <profiles>
+        <profile name="Mine Layer" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="a5fb-dcbe-05e0-6597">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">After a Vehicle with a Mine Layer moves through any Area Terrain, the controlling player may roll a D6. On a 3+ the Area Terrain now counts as Dangerous Terrain and the Mine Layer may not be used again. On a 1 or 2, the Area Terrain is unaffected but the Mine Layer may be used again in a subsequent turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cyboar" hidden="false" id="3db8-c946-8e44-b4c6">
+      <profiles>
+        <profile name="Cyboar" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="b5a5-2a09-9420-e4ae">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Cyboar that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn. A model with the Infantry Unit Type that selects a Cyboar as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had. In addition the model must change its Movement Characteristic to 14 and  it gains the Hammer of Wrath (D3) and Rampage (D3) special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deffkopta" hidden="false" id="fcb8-ea2c-a9dd-af9c">
+      <profiles>
+        <profile name="Deffkopta" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="852e-fcbf-b022-c567">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Deffkopta has one twin-linked big shoota. In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Twin-Linked Big Shoota" hidden="false" id="0ba2-8213-900f-4ac9" type="selectionEntry" targetId="bc5b-1b73-a0eb-b1d9"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="548f-6705-2848-d786">
+      <profiles>
+        <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="39dc-d40b-e592-80b0">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Concussive (X)" id="c34b-ff09-fbd8-c898" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
+          <modifiers>
+            <modifier type="set" value="Concussive (1)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
