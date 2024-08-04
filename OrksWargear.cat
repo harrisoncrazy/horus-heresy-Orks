@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="33d7-0b5a-7a0f-61e0" name="OrksWargear" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="111" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="33d7-0b5a-7a0f-61e0" name="Orks Library" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="111" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="37e2-5894-ba35-4116">
       <profiles>
@@ -399,7 +399,7 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="&apos;Ard Case" hidden="false" id="801f-1cc3-1508-5f97">
       <profiles>
-        <profile name="&apos;Ard Case" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="7346-1f2a-ecde-69f8" page="">
+        <profile name="&apos;Ard Case" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="7346-1f2a-ecde-69f8">
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with an ‘ard case loses the Open topped Sub-type. Access Points for the Vehicle with an ‘ard case will be listed in the unit entry.</characteristic>
           </characteristics>
@@ -553,6 +553,270 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
           </modifiers>
         </infoLink>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warbike" hidden="false" id="bc5b-03c2-1b40-8cb6">
+      <profiles>
+        <profile name="Warbike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="4a2b-432e-a5d1-dbe3">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Warbike has one twin-linked dakkagun. In addition, a model with a Warbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn. 
+
+
+A model with the Infantry Unit Type that selects a Warbike as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had. In addition the model must change its Movement Characteristic to 14 and it gains the Hammer of Wrath (1) special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Twin-Linked Dakkagun" hidden="false" id="942a-44a0-822f-a762" type="selectionEntry" targetId="7fd7-54fe-2522-0131"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dakkagun" hidden="false" id="df4f-ca07-c0c7-b435">
+      <profiles>
+        <profile name="Dakkagun" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="283e-ebfb-34b0-3b7a">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-Linked Dakkagun" hidden="false" id="7fd7-54fe-2522-0131">
+      <profiles>
+        <profile name="Dakkagun" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9502-25d3-8932-74f5">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="a16d-ca43-c1d8-d210" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dok&apos;s Tools" hidden="false" id="9ef9-9b31-b6c3-7fa5">
+      <profiles>
+        <profile name="Dok&apos;s Tools" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="bd58-0e44-5630-4cf4">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">As long as the bearer is alive, all models in their unit have the Feel No Pain (5+) special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Feel No Pain (X)" id="ec8b-0f78-afa2-135f" hidden="false" type="rule" targetId="ec46-ff29-32e0-c2aa">
+          <modifiers>
+            <modifier type="set" value="Feel no Pain (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reinforced Ram" hidden="false" id="88e0-8dd0-1f75-4c00">
+      <profiles>
+        <profile name="Reinforced Ram" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="12ac-1d96-f9ec-a2e3">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with a reinforced ram treats its front Armour Value as two points higher than normal when Ramming. Furthermore, the Vehicle may re-roll failed Dangerous Terrain tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deff Rolla" hidden="false" id="079a-57d1-a8c5-af4e">
+      <profiles>
+        <profile name="Deff Rolla" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="159e-b9b5-cf34-f4ee">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with a deff rolla counts as a Super-heavy Vehicle when Ramming. Furthermore, the Vehicle may re-roll failed Dangerous Terrain tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rokkit Array" hidden="false" id="79ca-8a34-78dc-8f43">
+      <profiles>
+        <profile name="Rokkit Array" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="3776-b1fa-74a3-7d0a">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A rokkit array includes a twin-linked rokkit launcha. In addition, any kannons and rokkit launchas fired by the model with the rokkit array gain the Sunder special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Twin-Linked Rokkit Launcha" hidden="false" id="2b7e-8332-bc72-6b29" type="selectionEntry" targetId="74f3-618e-be8a-ea93"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-Linked Rokkit Launcha" hidden="false" id="74f3-618e-be8a-ea93">
+      <profiles>
+        <profile name="Rokkit Launcha" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="29fe-ebc7-ffbf-5a7f">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="8702-2f6d-bada-3487" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rokkit Pack" hidden="false" id="60fc-a812-7312-0d52">
+      <profiles>
+        <profile name="Rokkit Pack" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="709d-8d63-0570-7126">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, or when deployed as part of a Deep Strike Assault, a model with a rokkit pack may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ the rokkit pack). This allows a model with a rokkit pack to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance).
+
+In addition, all models with a rokkit pack that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. 
+A model with an activated rokkit pack treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit. 
+A model with a rokkit pack may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with an activated rokkit pack, roll a D6 and add the value to 12 to determine how far it may move, rather than use the model’s Initiative Characteristic. The model ignores terrain and models from other units while making a Run move with a rokkit pack as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running. If the D6 value is a 6, all models in the unit with a rokkit pack must take a Dangerous Terrain test once the Run move is complete. 
+
+Any model with a rokkit pack also gains the Bulky (2), Hammer of Wrath (1) and Deep Strike special rules. 
+
+During a Reaction made in any Phase, a player may not choose to activate a model’s rokkit pack to gain any bonus to their Movement Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="66a5-ba6a-9022-9984" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
+        <infoLink name="Hammer of Wrath (X)" id="cc88-053c-f3f6-96c8" hidden="false" type="rule" targetId="aec0-c3aa-1e4e-1779">
+          <modifiers>
+            <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Bulky (X)" id="8219-5402-fbb1-61c1" hidden="false" type="rule" targetId="676c-7b75-4b6f-9405">
+          <modifiers>
+            <modifier type="set" value="Bulky (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="03ee-d31d-76cd-8aca">
+      <profiles>
+        <profile name="Attack Squig" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="fd30-ed6e-b3d9-a313">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an attack squig is allowed to re-roll one To Hit roll in close combat each turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Distraction Grot" hidden="false" id="a032-0d75-6b3e-4c87">
+      <profiles>
+        <profile name="Distraction Grot" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="3b87-2534-3de8-1806">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One Use Only. A Distraction grot allows any model in the same unit to re-roll a failed Cover Save or Shrouded roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kommanda" hidden="false" id="a652-78ba-f719-2d0b">
+      <profiles>
+        <profile name="Kommanda" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="343e-2de1-7567-fbc1">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whilst a model with a Kommanda is part of the Grot Tank Battle Mob, it may re-roll the distance it moves (see the Full Speed Ahead special rule), but must accept the second result, even if it is worse. This re-roll can be used to negate any damage caused by rolling a double 1 for the squadron’s movement, as long as the second roll is not also a double 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grot Gunner" hidden="false" id="5560-ae9e-ef9f-0000">
+      <profiles>
+        <profile name="Grot Gunner" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="0e12-5b84-ec40-94c5">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting attacks for a weapon with a grot gunner are resolved at Ballistic Skill 3.
+
+In addition, when any enemy unit that has the Vehicle Unit Type and the Flyer Sub-type enters the battlefield from Reserves, a friendly unit that has the Vehicle Unit Type and the Flyer Sub-type may make the Interceptor Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 309) using only Defensive weapons with grot gunners without expending a point of the Reactive player’s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grot Orderly" hidden="false" id="e8f2-8271-9a53-88f7">
+      <profiles>
+        <profile name="Grot Orderly" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="3ff2-1251-e7f8-5dda">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One Use Only. A grot orderly allows a Painboy’s unit to re- roll a single Feel No Pain roll or It Will Not Die roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="b036-851a-0535-9118">
+      <profiles>
+        <profile name="Grot Riggers" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="c07b-9a0d-8b21-6bb6">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with grot riggers gains the It Will Not Die (6+) special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jump Grot" hidden="false" id="4f2e-6621-4545-ad72">
+      <profiles>
+        <profile name="Jump Grot" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="6ebb-ade6-96fe-d648">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit with a jump grot may re-roll all the dice when rolling for scatter as part of a Deep Strike Assault.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Squig Hound" hidden="false" id="53ef-dea1-6e73-3f05">
+      <profiles>
+        <profile name="Squig Hound" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="bd4d-bfa1-f4b5-fff4">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Each time a unit with a squig hound fails a Morale check it suffers D6 Strength 3 AP - Hits and must then re-roll the failed Morale check. If the re-roll is failed, it cannot be re-rolled again, and the squig hound will not inflict any further hits.
+
+In addition, enemy models cannot bedeployed using the Infiltrate special rule within 18&quot; of a model with a squig hound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Saw Blades" hidden="false" id="17f9-3c61-2495-bb28">
+      <profiles>
+        <profile name="Saw Blades" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="9917-4d80-f57f-3697">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit with the Infantry Unit Type that charges a Vehicle with saw blades must make a Disordered Charge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shokkjump Engine" hidden="false" id="8441-f624-21b9-9a16">
+      <profiles>
+        <profile name="Shokkjump Engine" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="1592-19fb-08f1-e38b">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with a shokkjump engine may move an extra D6&quot; when moving Flat Out. If a 6 is rolled, the model is removed from the battlefield and placed into Reserve. 
+
+When returning to the battlefield it may deploy using the rules for Deep Strike Assault as though it had the Deep Strike special rule. This may allow the controlling player to perform more than a single Deep Strike Assault. If the model is not on the battlefield at the end of the game it counts as being destroyed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Snakebite Combat Drugs" hidden="false" id="44e6-c7bf-7eb7-068a">
+      <profiles>
+        <profile name="Snakebite Combat Drugs" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="4482-9160-d9a0-0b84">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Roll on the following table after deploying a model with Snakebite combat drugs:
+
+D6    Result
+ 1         The model beings the game having already lost 1 Wound.
+ 2         The model gains the Fleet (2) special rule.
+ 3         The model may re-roll the dice when rolling for the number of attacks granted by the Rampage special rule and the number of hits granted by the Hammer of Wrath Special rule.
+ 4         The model gains the Prefered Enemy (Infantry) special rule.
+ 5         The model gains the Feel No Pain (5+) special rule.
+ 6         Roll two more D6, applying both results. (re-roll any further results of 6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stikkbomb Flinga" hidden="false" id="fb9b-f483-84f8-57fc">
+      <profiles>
+        <profile name="Stikkbomb Flinga" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="93a0-3efe-0f65-b2e6">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per game, when a Flyer with a stikkbomb flinga makes the Evade Reaction, it gains the Shrouded (3+) special rule instead of Shrouded (5+).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Wurrtower" hidden="false" id="f794-98af-2985-af79">
+      <profiles>
+        <profile name="Wurrtower" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="025d-4cac-0d57-d2ca">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Weirdboy Embarked on a Transport with a Wurrtower extends the range of any psychic weapon without the Melee type by 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
