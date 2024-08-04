@@ -36,7 +36,7 @@
             <modifier type="set" value="Reach (1)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Choppin&apos; (X)" id="8ff7-4b2a-4a78-2c09" hidden="false" type="rule" targetId="ee2e-2fef-bf1b-c365">
+        <infoLink name="Choppin&apos; (X)" id="8ff7-4b2a-4a78-2c09" hidden="false" type="rule" targetId="615b-a959-49f1-ed40">
           <modifiers>
             <modifier type="set" value="Choppin&apos; (5+)" field="name"/>
           </modifiers>
@@ -119,7 +119,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Choppin&apos; (X)" id="507c-4df8-e06f-a15b" hidden="false" type="rule" targetId="ee2e-2fef-bf1b-c365">
+        <infoLink name="Choppin&apos; (X)" id="507c-4df8-e06f-a15b" hidden="false" type="rule" targetId="615b-a959-49f1-ed40">
           <modifiers>
             <modifier type="set" value="Choppin&apos; (6+)" field="name"/>
           </modifiers>
@@ -188,7 +188,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Shoota (Primary)" id="583e-3f9e-4408-ceb3" hidden="false" type="profile" targetId="e9f3-c06a-8fd0-edea"/>
+        <infoLink name="Shoota (Primary)" id="0eb2-cbf6-9c48-7861" hidden="false" type="profile" targetId="baba-c4ab-5660-1f9d"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kombi-weapon with Skorcha" hidden="false" id="59e6-4a35-2135-bf95">
@@ -203,7 +203,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Shoota (Primary)" id="ffd4-1714-ebf5-3876" hidden="false" type="profile" targetId="e9f3-c06a-8fd0-edea"/>
+        <infoLink name="Shoota (Primary)" id="ffd4-1714-ebf5-3876" hidden="false" type="profile" targetId="baba-c4ab-5660-1f9d"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="071c-4906-9249-4b8f">
@@ -376,7 +376,36 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="Orks" id="4de6-1375-44e2-d2b0" targetId="ac90-ee69-0e59-00f2"/>
-  </catalogueLinks>
+  <sharedProfiles>
+    <profile name="Shoota (Primary)" hidden="false" id="baba-c4ab-5660-1f9d" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="&apos;Ere We Go!" id="d474-68f1-fd64-374d" hidden="false">
+      <description>If every model in a unit has this special rule, the unit can re-roll a single dice when determining its charge range.
+
+In addition, when a unit made up entirely of models with this special rule makes the Advance Reaction, they may add +D3 to their Initiative Characteristic when determining the number of inches they can move. This is in addition to any other modifiers such as from the Light Sub-type.</description>
+    </rule>
+    <rule name="Choppin&apos; (X)" id="615b-a959-49f1-ed40" hidden="false">
+      <description>When rolling To Wound for a model that has the Choppin&apos; (X) special rule, or is attacking with a weapon that has the Choppin&apos; (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the controlling player must resolve these wounds at AP 3 instead of the weapon’s normal AP value (unless the weapon’s normal AP value is better). This rule only affects models that have the Infantry or Cavalry Unit Types.
+
+For example, a model with the Choppin&apos; (5+) special rule
+that rolls To Wound and rolls a result of ‘5’ or higher
+against a model with the Infantry or Cavalry Unit Types, the
+Wound inflicted gains an AP of ‘3’ unless the AP value listed
+on the weapon’s profile is otherwise better.</description>
+    </rule>
+    <rule name="Mob Rule" id="c29d-3ddf-cda8-4acb" hidden="false">
+      <description>A unit made up entirely of models with the Mob Rule special rule may count their Leadership as being equal to the number of models in the unit when taking any Leadership tests, to a maximum of 10. If there are more than 10 models in the unit, the unit also gains the Stubborn special rule. Models with the Bulky (X) special rule count as a number of models equal to the value X when determining mob size.</description>
+    </rule>
+    <rule name="Tank Hunters" id="cd03-5ee3-724f-7f45" hidden="false">
+      <description>Attacks against Vehicles made by a model with this special rule have the Sunder special rule.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
