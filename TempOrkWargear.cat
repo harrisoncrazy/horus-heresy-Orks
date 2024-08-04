@@ -355,65 +355,25 @@
         <infoLink name="Scuttle Scuttle Blam!" id="d013-2697-94dc-ee29" hidden="false" type="rule" targetId="1cc6-9b8c-fe95-f0ae"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="4c94-61b7-d282-8173">
+    <selectionEntry type="upgrade" import="true" name="Weirdboy Staff" hidden="false" id="4c94-61b7-d282-8173">
       <profiles>
-        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="79f1-832b-f054-9421">
+        <profile name="Weirdboy Staff" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="79f1-832b-f054-9421">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Force</characteristic>
           </characteristics>
         </profile>
       </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="f8b3-7e2e-112b-d909">
-      <profiles>
-        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b613-32af-acf1-ce7d">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="8510-6a22-b68c-58e1">
-      <profiles>
-        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6c73-7fe9-3313-be91">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="4459-2139-ee21-6af1">
-      <profiles>
-        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="283c-c5a2-1ff3-f06c">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="a" hidden="false" id="c85c-137e-a008-ba16">
-      <profiles>
-        <profile name="a" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="8898-5c9f-7131-b663">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066"/>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458"/>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d"/>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink name="Reach (X)" id="84b9-3574-139c-b2e2" hidden="false" type="rule" targetId="19bf-62a2-5737-890b">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Force" id="56df-a356-b47f-d1a2" hidden="false" type="rule" targetId="f39e-4c3b-38e0-0050"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Zzap Gun" hidden="false" id="bdae-686c-02f3-f6eb">
       <profiles>
@@ -1140,6 +1100,289 @@
             <modifier type="set" value="Concussive (1)" field="name"/>
           </modifiers>
         </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mega Choppa" hidden="false" id="6efe-a092-f3a4-a9d2">
+      <profiles>
+        <profile name="Mega Choppa" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3cc6-ba71-a810-4df5">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Destructor, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Destructor" id="f1e0-85f3-7b7c-2e56" hidden="false" type="rule" targetId="1f93-c765-f7b2-a025"/>
+        <infoLink name="Shred" id="93b4-e59b-cac7-f8d7" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tankbusta Bombs" hidden="false" id="5950-182c-5d1d-973f">
+      <profiles>
+        <profile name="Tankbusta Bombs" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="45a3-1658-975a-9aaf">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Detonation" id="c75e-6cd3-2dff-1135" hidden="false" type="rule" targetId="8a47-9fc5-16fb-b46e"/>
+        <infoLink name="Unwieldy" id="ca93-5c45-f769-028d" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Armourbane (X)" id="c006-2b7b-c172-e6d9" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Instant Death" id="b96b-8de0-8e5c-044f" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Breacha Ram" hidden="false" id="74a7-269c-c783-a3e9">
+      <profiles>
+        <profile name="Breacha Ram" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="da0e-2713-148d-7a5d">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (4+), Two-handed, Unwiedly, Wrecker</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Two-handed" id="9f06-2289-9b3f-4c24" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
+        <infoLink name="Unwieldy" id="e16a-5294-ca95-5208" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Wrecker" id="7eb2-d676-d9c1-1a85" hidden="false" type="rule" targetId="ba77-a802-55df-da67"/>
+        <infoLink name="Breaching (X)" id="b7e3-f96b-c23c-9987" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Killsaw" hidden="false" id="b3e0-1ed2-a4b4-6935">
+      <profiles>
+        <profile name="Killsaw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d002-6a6c-b77e-c027">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Shred, Specialist Weapon, Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Unwieldy" id="1f8e-d718-ddfc-c2ae" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Armourbane (X)" id="a590-e745-4c35-7ad2" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred" id="e6da-8477-4f28-4cd7" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+        <infoLink name="Specialist Weapon" id="2a7b-590d-10ed-4db5" hidden="false" type="rule" targetId="1a1f-3c9b-b097-5886"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="&apos;Urty Syringe" hidden="false" id="3214-0f63-fb02-13cb">
+      <profiles>
+        <profile name="&apos;Urty Syringe" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="c6ba-4756-ed95-6223">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Poisoned (X)" id="0fb2-4976-2cd5-7e7c" hidden="false" type="rule" targetId="e70e-23ea-3251-0edb">
+          <modifiers>
+            <modifier type="set" value="Poisioned (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grabba Stikk" hidden="false" id="888c-d093-9916-4d02">
+      <profiles>
+        <profile name="Grabba Stikk" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="48c9-b6b1-caf0-4148">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Throttle (1), Two-Handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Two-handed" id="9ac7-5f8f-fd7d-1633" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
+        <infoLink name="Throttle (X)" id="c91f-39a9-3467-e883" hidden="false" type="rule" targetId="40e7-d444-354e-2ef7">
+          <modifiers>
+            <modifier type="set" value="Throttle (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Reach (X)" id="4617-f27e-2670-037b" hidden="false" type="rule" targetId="19bf-62a2-5737-890b">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kan Klaw" hidden="false" id="f2d8-0f20-ca23-c25c">
+      <profiles>
+        <profile name="Kan Klaw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5fa0-e4d6-1165-a942">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brutal (X)" id="c81d-8dab-7475-1462" hidden="false" type="rule" targetId="5079-1fec-d32b-8b84">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dread Klaw" hidden="false" id="aabc-4bc9-a9d6-0ba0">
+      <profiles>
+        <profile name="Dread Klaw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e830-2a87-9d31-2157">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Murderous Strike (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brutal (X)" id="1d15-833e-042b-d46c" hidden="false" type="rule" targetId="5079-1fec-d32b-8b84">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Murderous Strike (X)" id="7e81-46d1-81b7-78fd" hidden="false" type="rule" targetId="93b9-1454-0e7c-42ae">
+          <modifiers>
+            <modifier type="set" value="Murderous Strike (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Klaw of Gork (or possibly Mork)" hidden="false" id="c284-4b75-87e0-2d85">
+      <profiles>
+        <profile name="Klaw of Gork (or possibly Mork)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7d3f-e5c7-df23-259a">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Murderous Strike (6+), Concussive (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brutal (X)" id="b640-8998-a42b-9a1c" hidden="false" type="rule" targetId="5079-1fec-d32b-8b84">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Murderous Strike (X)" id="cc05-2495-f0d5-35bf" hidden="false" type="rule" targetId="93b9-1454-0e7c-42ae">
+          <modifiers>
+            <modifier type="set" value="Murderous Strike (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Concussive (X)" id="2769-15ba-df8d-5ec1" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
+          <modifiers>
+            <modifier type="set" value="Concussive (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grot Prod" hidden="false" id="5029-0fe3-4da7-d759">
+      <profiles>
+        <profile name="Grot Prod" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="1ca2-6993-429f-2ac8">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Measured Strike, Two-Handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Two-handed" id="a205-cb5d-6026-ecfd" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
+        <infoLink name="Measured Strike" id="6337-f1a9-f9e8-2e61" hidden="false" type="rule" targetId="add4-d169-5ccf-4085">
+          <modifiers>
+            <modifier type="set" value="Throttle (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Reach (X)" id="8e71-d393-35e6-2d63" hidden="false" type="rule" targetId="19bf-62a2-5737-890b">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kan Saw" hidden="false" id="2ddc-f5dc-3040-ae01">
+      <profiles>
+        <profile name="Kan Saw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="22ef-d03a-9157-71ac">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="7e30-27ec-ca73-62bb" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred" id="b304-dd30-d83f-7f42" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dread Saw" hidden="false" id="cccf-74d9-5d57-2ba5">
+      <profiles>
+        <profile name="Dread Saw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f072-b590-64ee-c193">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="bc97-dd64-e52a-4bd3" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred" id="09cb-3233-e1c0-de19" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mega Killsaw" hidden="false" id="e41e-36d0-8b81-5e03">
+      <profiles>
+        <profile name="Mega Killsaw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="03c4-3d4b-2a19-49d7">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="ced7-d7d0-ae14-7fe5" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred" id="1a67-8589-cb7e-8a21" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
