@@ -162,7 +162,18 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="9761-4d75-6e40-438b" type="selectionEntry" targetId="75cc-69bb-9c31-659b"/>
+        <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="9761-4d75-6e40-438b" type="selectionEntry" targetId="75cc-69bb-9c31-659b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cac8-8a58-f1dc-db2f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="785a-4efd-1256-fccd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Cybork Body" hidden="false" id="5ab3-1a2c-684c-1775" type="selectionEntry" targetId="2ed4-a9ea-18a0-1428">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7510-0651-d147-48e4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7330-c142-4a34-78d1" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Slow and Purposeful" id="d172-b120-8037-a8fd" hidden="false" type="rule" targetId="d69a-cfb3-db43-32c5"/>
@@ -267,7 +278,12 @@ A model with the Infantry Unit Type that selects a Warbike as an upgrade must c
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Twin-Linked Dakkagun" hidden="false" id="942a-44a0-822f-a762" type="selectionEntry" targetId="4142-851b-3053-97a1"/>
+        <entryLink import="true" name="Twin-Linked Dakkagun" hidden="false" id="942a-44a0-822f-a762" type="selectionEntry" targetId="4142-851b-3053-97a1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0338-a42a-33f2-75fb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b22-7fe8-172e-8de5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dakkagun" hidden="false" id="df4f-ca07-c0c7-b435">
@@ -682,8 +698,7 @@ D6    Result
       <profiles>
         <profile name="Bubblechukka" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e9d2-8e15-6b94-3d1d">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;
-</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">D6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">D6</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Unstable Field</characteristic>
@@ -1743,6 +1758,10 @@ D6    Result
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Twin-Linked Big Shoota" field="name"/>
+            <modifier type="set" value="Assault 3, Concussive (1), Twin-linked" field="2f86-c8b4-b3b4-3ff9"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1753,27 +1772,6 @@ D6    Result
         </infoLink>
         <infoLink name="Twin-linked" id="5d18-d275-a7ef-5b5e" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="a3fc-8fd1-286f-d615">
-          <profiles>
-            <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6043-5331-cb74-e4b7">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Concussive (X)" id="4159-0a4a-3c3a-f524" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
-              <modifiers>
-                <modifier type="set" value="Concussive (1)" field="name"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin-Linked Dakkagun" hidden="false" id="4142-851b-3053-97a1">
       <profiles>
@@ -1784,6 +1782,10 @@ D6    Result
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Assault 3, Twin-Linked" field="2f86-c8b4-b3b4-3ff9"/>
+            <modifier type="set" value="Twin-Linked Dakkagun" field="name"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1799,6 +1801,10 @@ D6    Result
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Twin-Linked Rokkit Launcha" field="name"/>
+            <modifier type="set" value="Assault 1, Twin-Linked" field="2f86-c8b4-b3b4-3ff9"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1814,6 +1820,10 @@ D6    Result
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Twin-Linked Shoota" field="name"/>
+            <modifier type="set" value="Assault 2, Twin-Linked" field="2f86-c8b4-b3b4-3ff9"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
