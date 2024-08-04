@@ -19,72 +19,6 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="6d9f-512c-d36c-4c4c">
-      <profiles>
-        <profile name="Big Choppa" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b17b-b025-5091-ba85">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Choppin&apos; (5+), Reach (1), Two-handed</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Reach (X)" id="995f-20fe-1be6-d44f" hidden="false" type="rule" targetId="19bf-62a2-5737-890b">
-          <modifiers>
-            <modifier type="set" value="Reach (1)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Choppin&apos; (X)" id="8ff7-4b2a-4a78-2c09" hidden="false" type="rule" targetId="615b-a959-49f1-ed40">
-          <modifiers>
-            <modifier type="set" value="Choppin&apos; (5+)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Two-handed" id="fe6c-1239-efcf-f040" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin-Linked Big Shoota" hidden="false" id="bc5b-1b73-a0eb-b1d9">
-      <profiles>
-        <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ff61-2f00-e5bb-2c06">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Concussive (X)" id="d72c-d739-884f-8327" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
-          <modifiers>
-            <modifier type="set" value="Concussive (1)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Twin-linked" id="4e4c-9cb9-c12f-b466" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="58b7-f4cd-0be8-2344">
-          <profiles>
-            <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f4c4-21cc-3987-e138">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Concussive (X)" id="35c0-b11e-9cd7-1125" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
-              <modifiers>
-                <modifier type="set" value="Concussive (1)" field="name"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="e529-4fe1-c563-2ab6">
       <profiles>
         <profile name="Bosspole" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="69bb-90e1-31b1-6557">
@@ -93,60 +27,6 @@
           </characteristics>
         </profile>
       </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Burna (Melee)" hidden="false" id="f270-cf59-6da2-80df">
-      <profiles>
-        <profile name="Burna (Melee" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b6ea-b1e0-1426-34e8">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (5+), Two-handed</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Breaching (X)" id="4d9c-60ce-eb96-4029" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
-          <modifiers>
-            <modifier type="set" value="Breaching (5+)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Two-handed" id="bfe9-e4e2-661e-2499" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Burna (Ranged)" hidden="false" id="17a0-e29e-93f6-1363">
-      <profiles>
-        <profile name="Burna (Ranged)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="8a95-d007-14f0-f7f0">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Template</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Template Weapons" id="4665-be83-dc27-db66" hidden="false" type="rule" targetId="5e0e-88e6-db81-5a70"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="859e-50d9-4578-4f4b">
-      <profiles>
-        <profile name="Choppa" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="46e9-fe91-39bd-f3e7">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Choppin&apos; (6+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Choppin&apos; (X)" id="507c-4df8-e06f-a15b" hidden="false" type="rule" targetId="615b-a959-49f1-ed40">
-          <modifiers>
-            <modifier type="set" value="Choppin&apos; (6+)" field="name"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="2ed4-a9ea-18a0-1428">
       <profiles>
@@ -198,36 +78,6 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="3dc3-7577-e4d7-1768">
-      <profiles>
-        <profile name="Rokkit Launcha (Secondary)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7464-3229-1557-1597">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, One Shot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Shoota (Primary)" id="0eb2-cbf6-9c48-7861" hidden="false" type="profile" targetId="baba-c4ab-5660-1f9d"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kombi-weapon with Skorcha" hidden="false" id="59e6-4a35-2135-bf95">
-      <profiles>
-        <profile name="Skorcha (Secondary)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="987f-364c-4b1a-9a42">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">43</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, One Shot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Shoota (Primary)" id="ffd4-1714-ebf5-3876" hidden="false" type="profile" targetId="baba-c4ab-5660-1f9d"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="071c-4906-9249-4b8f">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -239,48 +89,6 @@
           </characteristics>
         </profile>
       </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kustom Mega-Blasta" hidden="false" id="d3a4-7288-ca56-0a69">
-      <profiles>
-        <profile name="Kustom Mega-Blasta" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="47dd-34d2-9fab-9e12">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blind, Breaching (4+), Gets Hot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Blind" id="03f7-eca8-abd7-93d4" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
-        <infoLink name="Breaching (X)" id="b1f0-ef98-798c-935a" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
-          <modifiers>
-            <modifier type="set" value="Breaching (4+)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Gets Hot" id="3f58-d4bc-c577-4081" hidden="false" type="rule" targetId="679f-9d97-5ace-a652"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kustom Mega-Slugga" hidden="false" id="5a36-ce3e-69bb-e7cd">
-      <profiles>
-        <profile name="Kustom Mega-Slugga" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="695b-6907-c6fb-5115">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (4+), Gets Hot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Blind" id="87bb-09ff-5316-f6b8" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
-        <infoLink name="Breaching (X)" id="a256-fc4a-0586-0b64" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
-          <modifiers>
-            <modifier type="set" value="Breaching (4+)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Gets Hot" id="42a5-5592-5a0e-cac8" hidden="false" type="rule" targetId="679f-9d97-5ace-a652"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mek&apos;s Tools" hidden="false" id="08f2-8b6a-b79a-43a3">
       <profiles>
@@ -298,63 +106,6 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="b17e-e9fa-10f9-f894">
-      <profiles>
-        <profile name="Power Klaw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ccd4-e179-e8d2-eb7f">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+), Unweidly, Specialist Weapon</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Unwieldy" id="c9ee-b34f-d8f0-4e28" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
-        <infoLink name="Rending (X)" id="d765-5504-ea85-ac0d" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
-          <modifiers>
-            <modifier type="set" value="Rending (6+)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Specialist Weapon" id="6cf1-64ad-52c1-4d73" hidden="false" type="rule" targetId="1a1f-3c9b-b097-5886"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="9f68-4127-9847-b104">
-      <profiles>
-        <profile name="Rokkit Launcha" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7078-603d-4435-4985">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="f835-0743-76b3-b570">
-      <profiles>
-        <profile name="Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9f00-efab-0d12-6c6b">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="43fa-ff46-acd2-c406">
-      <profiles>
-        <profile name="Slugga" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="71fe-a7e4-3bff-fce2">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stikkbombs" hidden="false" id="f0af-b0c7-99cc-b4b5">
       <profiles>
         <profile name="Stikkbombs" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="c9d3-ab80-08b0-8a9c">
@@ -365,37 +116,6 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
           </characteristics>
         </profile>
       </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Tankhammer" hidden="false" id="3c08-0e6e-f9a1-2461">
-      <profiles>
-        <profile name="Tankhammer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0606-17b1-400e-0cc8">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Unweildy</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Unwieldy" id="4250-ee03-d579-c8c0" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a"/>
-        <infoLink name="Two-handed" id="7d56-b288-0153-d5f1" hidden="false" type="rule" targetId="4c23-e863-a569-7617"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="2039-2c71-92f5-2bcc">
-      <profiles>
-        <profile name="Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4e01-837c-3622-67a8">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" id="898a-a910-ae1c-5e2d" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="&apos;Ard Case" hidden="false" id="801f-1cc3-1508-5f97">
       <profiles>
@@ -535,25 +255,6 @@ A unit that includes at least one model with stikkbombs makes attacks at its no
         <entryLink import="true" name="Twin-Linked Big Shoota" hidden="false" id="0ba2-8213-900f-4ac9" type="selectionEntry" targetId="bc5b-1b73-a0eb-b1d9"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="548f-6705-2848-d786">
-      <profiles>
-        <profile name="Big Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="39dc-d40b-e592-80b0">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Concussive (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Concussive (X)" id="c34b-ff09-fbd8-c898" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
-          <modifiers>
-            <modifier type="set" value="Concussive (1)" field="name"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Warbike" hidden="false" id="bc5b-03c2-1b40-8cb6">
       <profiles>
         <profile name="Warbike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="4a2b-432e-a5d1-dbe3">
@@ -580,21 +281,6 @@ A model with the Infantry Unit Type that selects a Warbike as an upgrade must c
           </characteristics>
         </profile>
       </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin-Linked Dakkagun" hidden="false" id="7fd7-54fe-2522-0131">
-      <profiles>
-        <profile name="Dakkagun" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9502-25d3-8932-74f5">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" id="a16d-ca43-c1d8-d210" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dok&apos;s Tools" hidden="false" id="9ef9-9b31-b6c3-7fa5">
       <profiles>
@@ -641,21 +327,6 @@ A model with the Infantry Unit Type that selects a Warbike as an upgrade must c
       <entryLinks>
         <entryLink import="true" name="Twin-Linked Rokkit Launcha" hidden="false" id="2b7e-8332-bc72-6b29" type="selectionEntry" targetId="74f3-618e-be8a-ea93"/>
       </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin-Linked Rokkit Launcha" hidden="false" id="74f3-618e-be8a-ea93">
-      <profiles>
-        <profile name="Rokkit Launcha" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="29fe-ebc7-ffbf-5a7f">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" id="8702-2f6d-bada-3487" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Rokkit Pack" hidden="false" id="60fc-a812-7312-0d52">
       <profiles>
