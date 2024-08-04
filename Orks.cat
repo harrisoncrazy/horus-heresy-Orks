@@ -65,7 +65,7 @@
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Slugga/Chopa" hidden="false" id="85c6-93ca-46c2-bdb5">
                       <entryLinks>
-                        <entryLink import="true" name="Slugga" hidden="false" id="688c-bb14-feb1-0700" type="selectionEntry" targetId="43fa-ff46-acd2-c406">
+                        <entryLink import="true" name="Slugga" hidden="false" id="688c-bb14-feb1-0700" type="selectionEntry" targetId="fade-c99d-f650-9644">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="091a-7074-3c48-7bd4" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2830-7076-aa6b-b87c" includeChildSelections="false"/>
@@ -75,7 +75,7 @@
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Exchange Choppa" id="b6f5-1ffe-8344-a357" hidden="false" defaultSelectionEntryId="2989-e985-d517-1994">
                           <entryLinks>
-                            <entryLink import="true" name="Choppa" hidden="false" id="2989-e985-d517-1994" type="selectionEntry" targetId="859e-50d9-4578-4f4b"/>
+                            <entryLink import="true" name="Choppa" hidden="false" id="2989-e985-d517-1994" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
                             <entryLink import="true" name="Chainsword" hidden="false" id="f7e1-3d84-d9b6-1b2f" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
                           </entryLinks>
                           <constraints>
@@ -91,7 +91,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="1d35-c9e3-2c14-2226">
                       <entryLinks>
-                        <entryLink import="true" name="Shoota" hidden="false" id="1400-0b88-ac7f-185d" type="selectionEntry" targetId="f835-0743-76b3-b570">
+                        <entryLink import="true" name="Shoota" hidden="false" id="1400-0b88-ac7f-185d" type="selectionEntry" targetId="6c27-7027-5202-a0b7">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49aa-2e92-4c46-8acf" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f81-e96e-df95-968e" includeChildSelections="false"/>
@@ -128,12 +128,12 @@
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon Choice" id="29e1-5761-1efe-e365" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Rokkit Launcha" hidden="false" id="89f2-5664-e6f0-b5e3" type="selectionEntry" targetId="9f68-4127-9847-b104">
+                    <entryLink import="true" name="Rokkit Launcha" hidden="false" id="89f2-5664-e6f0-b5e3" type="selectionEntry" targetId="a38c-d1fb-482b-af3a">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Big Shoota" hidden="false" id="6852-4696-fd34-5499" type="selectionEntry" targetId="bc5b-1b73-a0eb-b1d9">
+                    <entryLink import="true" name="Big Shoota" hidden="false" id="6852-4696-fd34-5499" type="selectionEntry" targetId="d142-c791-5b56-9877">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
@@ -242,7 +242,7 @@
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Exchange Choppa" id="73a1-b9b4-4b5c-e87d" hidden="false" defaultSelectionEntryId="2989-e985-d517-1994">
                   <entryLinks>
-                    <entryLink import="true" name="Choppa" hidden="false" id="0426-7fac-d02c-15cb" type="selectionEntry" targetId="859e-50d9-4578-4f4b"/>
+                    <entryLink import="true" name="Choppa" hidden="false" id="0426-7fac-d02c-15cb" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
                     <entryLink import="true" name="Chainsword" hidden="false" id="480e-4a03-eb9b-3c6e" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
                     <entryLink import="true" name="Power Sword" hidden="false" id="0ce1-d9a4-6ff1-2d3d" type="selectionEntry" targetId="a3cd-aa97-a148-2309">
                       <costs>
@@ -259,7 +259,7 @@
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Power Klaw" hidden="false" id="7a70-682a-27c7-f893" type="selectionEntry" targetId="b17e-e9fa-10f9-f894">
+                    <entryLink import="true" name="Power Klaw" hidden="false" id="7a70-682a-27c7-f893" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                       </costs>
@@ -272,27 +272,27 @@
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Exchange Slugga" id="5a89-ff0b-1e39-2422" hidden="false" defaultSelectionEntryId="d013-ed48-ff52-d802">
                   <entryLinks>
-                    <entryLink import="true" name="Slugga" hidden="false" id="d013-ed48-ff52-d802" type="selectionEntry" targetId="43fa-ff46-acd2-c406">
+                    <entryLink import="true" name="Slugga" hidden="false" id="d013-ed48-ff52-d802" type="selectionEntry" targetId="fade-c99d-f650-9644">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="775d-29a5-ab77-64f9" includeChildSelections="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Shoota" hidden="false" id="3677-d20e-9810-61d2" type="selectionEntry" targetId="f835-0743-76b3-b570">
+                    <entryLink import="true" name="Shoota" hidden="false" id="3677-d20e-9810-61d2" type="selectionEntry" targetId="6c27-7027-5202-a0b7">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2433-1757-93c1-4ec9" includeChildSelections="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="6493-340a-0717-c750" type="selectionEntry" targetId="2039-2c71-92f5-2bcc">
+                    <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="6493-340a-0717-c750" type="selectionEntry" targetId="1ba0-e4fe-6daf-0b92">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="3d16-2f88-aeeb-b815" type="selectionEntry" targetId="3dc3-7577-e4d7-1768">
+                    <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="3d16-2f88-aeeb-b815" type="selectionEntry" targetId="e7cb-aea7-eb56-4c84">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="2dbd-71a5-aef1-d4e2" type="selectionEntry" targetId="59e6-4a35-2135-bf95">
+                    <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="2dbd-71a5-aef1-d4e2" type="selectionEntry" targetId="2e28-26b7-b137-dbc1">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
@@ -359,13 +359,13 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Burna (Melee)" hidden="false" id="1f7c-4f3c-b366-ffd8" type="selectionEntry" targetId="f270-cf59-6da2-80df">
+                <entryLink import="true" name="Burna (Melee)" hidden="false" id="1f7c-4f3c-b366-ffd8" type="selectionEntry" targetId="330d-5c14-74d4-3288">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="16e0-3fd1-7bc8-ad3d" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="836d-b53d-adaa-3624" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Burna (Ranged)" hidden="false" id="dd0a-a53e-604d-f9e5" type="selectionEntry" targetId="17a0-e29e-93f6-1363">
+                <entryLink import="true" name="Burna (Ranged)" hidden="false" id="dd0a-a53e-604d-f9e5" type="selectionEntry" targetId="9729-5a07-ed90-216e">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32c1-def6-885c-9a5d" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00a5-dcc6-aca1-82b6" includeChildSelections="false"/>
@@ -477,7 +477,7 @@
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Weapon Selection" id="6ade-2e5a-8919-249c" hidden="false" defaultSelectionEntryId="32ec-8a22-b57c-728d">
                   <entryLinks>
-                    <entryLink import="true" name="Rokkit Launcha" hidden="false" id="be48-7d1f-89f1-a03a" type="selectionEntry" targetId="9f68-4127-9847-b104">
+                    <entryLink import="true" name="Rokkit Launcha" hidden="false" id="be48-7d1f-89f1-a03a" type="selectionEntry" targetId="a38c-d1fb-482b-af3a">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
@@ -503,13 +503,13 @@
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Slugga and Choppa" hidden="false" id="32ec-8a22-b57c-728d">
                       <entryLinks>
-                        <entryLink import="true" name="Choppa" hidden="false" id="fb48-0d44-e1b4-f70f" type="selectionEntry" targetId="859e-50d9-4578-4f4b">
+                        <entryLink import="true" name="Choppa" hidden="false" id="fb48-0d44-e1b4-f70f" type="selectionEntry" targetId="3d77-c475-0975-04af">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="609d-16dc-1ba0-1464" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fae2-886c-e8e5-2309" includeChildSelections="false"/>
                           </constraints>
                         </entryLink>
-                        <entryLink import="true" name="Slugga" hidden="false" id="1656-d0c4-36b6-63ff" type="selectionEntry" targetId="43fa-ff46-acd2-c406">
+                        <entryLink import="true" name="Slugga" hidden="false" id="1656-d0c4-36b6-63ff" type="selectionEntry" targetId="fade-c99d-f650-9644">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd9d-8822-da17-c380" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f77e-1682-9a47-d53f" includeChildSelections="false"/>
@@ -519,13 +519,13 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Kustom Mega-Slugga and Choppa" hidden="false" id="446f-e6dd-a824-f323">
                       <entryLinks>
-                        <entryLink import="true" name="Choppa" hidden="false" id="f733-679e-a0e0-4533" type="selectionEntry" targetId="859e-50d9-4578-4f4b">
+                        <entryLink import="true" name="Choppa" hidden="false" id="f733-679e-a0e0-4533" type="selectionEntry" targetId="3d77-c475-0975-04af">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89c1-7014-0a70-4f52" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a717-11ea-077a-c74c" includeChildSelections="false"/>
                           </constraints>
                         </entryLink>
-                        <entryLink import="true" name="Kustom Mega-Slugga" hidden="false" id="68c2-aacf-da84-7130" type="selectionEntry" targetId="5a36-ce3e-69bb-e7cd">
+                        <entryLink import="true" name="Kustom Mega-Slugga" hidden="false" id="68c2-aacf-da84-7130" type="selectionEntry" targetId="94e7-e401-a50b-50e5">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5eb-3591-d67a-ff4e" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d71f-bfcb-af1a-5c04" includeChildSelections="false"/>
@@ -542,7 +542,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Kustom Mega-Blasta" hidden="false" id="f9e3-9fdb-9dd0-aad5">
                       <entryLinks>
-                        <entryLink import="true" name="Kustom Mega-Blasta" hidden="false" id="3be6-3ac2-f818-237a" type="selectionEntry" targetId="d3a4-7288-ca56-0a69">
+                        <entryLink import="true" name="Kustom Mega-Blasta" hidden="false" id="3be6-3ac2-f818-237a" type="selectionEntry" targetId="9dad-9e6f-a9d8-8fb0">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cc6-c037-1c4a-77da" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ebe-13b2-c4a8-96d7" includeChildSelections="false"/>
@@ -619,7 +619,7 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Rokkit Launcha" hidden="false" id="2ac1-11ce-f78f-78ad" type="selectionEntry" targetId="9f68-4127-9847-b104">
+                <entryLink import="true" name="Rokkit Launcha" hidden="false" id="2ac1-11ce-f78f-78ad" type="selectionEntry" targetId="a38c-d1fb-482b-af3a">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6014-2a4e-4a33-ecf5" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5db-595a-c1e2-f886" includeChildSelections="false"/>
@@ -752,7 +752,7 @@
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Exchange Choppa" id="a254-d3aa-117f-7b0e" hidden="false" defaultSelectionEntryId="2989-e985-d517-1994">
                   <entryLinks>
-                    <entryLink import="true" name="Choppa" hidden="false" id="084d-7a0b-f61e-f302" type="selectionEntry" targetId="859e-50d9-4578-4f4b"/>
+                    <entryLink import="true" name="Choppa" hidden="false" id="084d-7a0b-f61e-f302" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
                     <entryLink import="true" name="Power Sword" hidden="false" id="7b1a-55b2-30bf-a283" type="selectionEntry" targetId="a3cd-aa97-a148-2309">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -768,12 +768,12 @@
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Power Klaw" hidden="false" id="21e9-c66b-fc80-725c" type="selectionEntry" targetId="b17e-e9fa-10f9-f894">
+                    <entryLink import="true" name="Power Klaw" hidden="false" id="21e9-c66b-fc80-725c" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Big Choppa" hidden="false" id="057b-2a93-1436-0d96" type="selectionEntry" targetId="6d9f-512c-d36c-4c4c">
+                    <entryLink import="true" name="Big Choppa" hidden="false" id="057b-2a93-1436-0d96" type="selectionEntry" targetId="22ff-b1e7-2d19-b194">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
@@ -801,7 +801,7 @@
                 </modifier>
               </modifiers>
               <entryLinks>
-                <entryLink import="true" name="Tankhammer" hidden="false" id="b280-3a05-2687-4335" type="selectionEntry" targetId="3c08-0e6e-f9a1-2461">
+                <entryLink import="true" name="Tankhammer" hidden="false" id="b280-3a05-2687-4335" type="selectionEntry" targetId="7f26-dba2-dbd9-01d8">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa7e-8193-93e2-1f6e" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d96-e3df-4710-2e20" includeChildSelections="false"/>
