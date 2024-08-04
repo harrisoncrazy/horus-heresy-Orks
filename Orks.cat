@@ -1296,6 +1296,7 @@
         <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="24ef-fb23-7de8-49f1" primary="false" name="Infantry Unit Type"/>
         <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="26ae-e1c3-b66c-f66b" primary="false" name="Character"/>
         <categoryLink targetId="a923-346e-c3b2-c0e4" id="bb68-ceea-c12e-f526" primary="false" name="Warboss"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="6d78-5b9b-d05d-1500" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Exchange Choppa" id="fc44-dab4-2d2e-867a" hidden="false" defaultSelectionEntryId="a661-a92a-bc94-e50c">
@@ -1679,6 +1680,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         <categoryLink name="Character" hidden="false" id="7f45-72ca-6bbc-e62b" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
         <categoryLink name="Warboss" hidden="false" id="acfb-9545-265a-d16f" targetId="a923-346e-c3b2-c0e4" primary="false"/>
         <categoryLink targetId="9231-183c-b97b-63f9" id="4bd2-8f14-2675-3b2e" primary="false" name="Heavy Sub-type"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1f0e-f682-700b-40d6" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Ranged Weapon" id="649b-06b0-0dd3-ce36" hidden="false" defaultSelectionEntryId="38bb-709f-14dd-a45e">
@@ -1946,6 +1948,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
       <categoryLinks>
         <categoryLink name="Infantry Unit Type" hidden="false" id="d7b6-bf2b-8723-de97" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink name="Character" hidden="false" id="d0bf-3db5-485f-abc3" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="e9ff-0cf5-607d-cd81" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Exchange Choppa" id="b8fb-80a0-ac46-28d5" hidden="false" defaultSelectionEntryId="d112-3402-b862-fc16">
@@ -2285,6 +2288,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
       <categoryLinks>
         <categoryLink name="Infantry Unit Type" hidden="false" id="2cfb-29fc-ed7f-4737" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink name="Character" hidden="false" id="6c2d-24c3-215a-3a59" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="3e1a-f725-f14e-85ae" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Exchange Kustom Mega-Blasta" id="f6b5-595f-c30f-8d81" hidden="false" defaultSelectionEntryId="6a55-9d1c-f181-2a58">
@@ -2510,6 +2514,114 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Weirdboy" hidden="false" id="61a0-dddb-8594-35a3">
+      <categoryLinks>
+        <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="8a7a-e564-b55a-dc3e" primary="false" name="Character"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="e3b2-54a7-8829-fafc" primary="false" name="Independent Character"/>
+        <categoryLink targetId="bff2-ae16-74a8-8712" id="1a6d-7ff0-a80d-462d" primary="false" name="Light Sub-type"/>
+        <categoryLink targetId="6e0c-29ba-a445-8321" id="a75c-4a62-c00a-a926" primary="false" name="Psyker:"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Weirdboy" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="6d74-ec5e-b7e0-6b5e">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Light, Psyker</characteristic>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="&apos;Eadbanger (Psychic Weapon)" hidden="false" id="78f9-5bcd-f496-ce05">
+          <profiles>
+            <profile name="&apos;Eadbanger" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2b6b-d30c-5588-156c">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">*</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blind, Frazzle, Pinning, Psychic Focus, Sniper</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blind" id="791e-e815-4a8b-1129" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+            <infoLink name="Pinning" id="b66d-c233-a358-da93" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2"/>
+            <infoLink name="Psychic Focus" id="325d-d702-2112-8c17" hidden="false" type="rule" targetId="bff3-3548-b2b8-72f1"/>
+          </infoLinks>
+          <rules>
+            <rule name="Frazzle" id="edf5-1fb4-de58-abca" hidden="false">
+              <description>Instead of rolling To Hit and To Wound normally, this weapon hits its target on a D6 roll of 2+ and the target of this attack must pass a Toughness test or suffer a Wound. Invulnerable saves and Damage Mitigation rolls may be taken as normal.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b600-bf9e-b9c6-2509" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a602-6c83-f4c6-010c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Weirdboy Staff" hidden="false" id="a8fa-7f98-e497-59d9" type="selectionEntry" targetId="98a2-8d46-beb7-abf9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="389f-770f-7379-e349" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d848-e333-4883-0836" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Lucky Tatttoos" hidden="false" id="60c2-53fc-477d-e7ee" type="selectionEntry" targetId="b501-6733-5474-a442">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f02-c9c6-bbda-f8a7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f0d-208e-89ff-5803" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Battle-Hardened (X)" id="1850-e134-1e9b-63d1" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
+          <modifiers>
+            <modifier type="set" value="Battle-Hardened (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="&apos;Ere We Go!" id="20a8-cae4-d195-73b0" hidden="false" type="rule" targetId="d474-68f1-fd64-374d"/>
+        <infoLink name="Furious Charge (X)" id="abec-ddf6-6595-b619" hidden="false" type="rule" targetId="2821-9269-862f-0554">
+          <modifiers>
+            <modifier type="set" value="Furious Charge (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Mob Rule" id="804c-1fd1-e14f-dbf4" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
+        <infoLink name="Support Squad" id="bc62-344a-8532-bd3d" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae"/>
+      </infoLinks>
+      <rules>
+        <rule name="Warphead" id="aa3e-7ae2-6f70-ebd3" hidden="false">
+          <description>A Weirdboy has access to the Power of the Waaagh! Discipline.
+
+Psychic Discipline: Power of the Waaagh!
+A Psyker with this Discipline gains the Warpath Psychic Power and the ‘Eadbanger
+and Aetheric Lightning Psychic Weapons (see page 322 of the Horus Heresy: Age of
+Darkness rulebook for the rules for Aetheric Lightning).
+</description>
+        </rule>
+        <rule name="Warpath (Psychic Power)" id="98cd-264c-bf3f-3c72" hidden="false">
+          <description>Warpath (Psychic Power)
+
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may activate
+this Psychic Power. The Psyker and any model in a unit he has joined that has the ‘Ere
+We Go special rule increases their Attacks by +1 for the duration of the current
+player turn. When using this power, the controlling player may choose to have the
+Psyker take a Psychic check. If the Check is passed then both Weapon Skill and
+Attacks are increased by +1 for the duration of the current player turn. If the Check
+is failed, then the target unit gains no benefit and the Psyker suffers Perils of the
+Warp.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="false" name="Boyz Mob" hidden="false" id="1f68-22d4-f782-683a" type="selectionEntry" targetId="1179-9f71-5fb8-9c7f">
@@ -2557,6 +2669,11 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
     <entryLink import="true" name="Mega Big Mek" hidden="false" id="7321-841d-39b7-4c00" type="selectionEntry" targetId="9b76-eb16-cdd8-2d6d">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="099b-5170-56a8-b302" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Weirdboy" hidden="false" id="0ef8-5d98-2873-1e89" type="selectionEntry" targetId="61a0-dddb-8594-35a3">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="e7fb-0318-7e6b-5e90" primary="true" name="HQ:"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
