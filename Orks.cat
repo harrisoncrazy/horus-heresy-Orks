@@ -347,6 +347,355 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Boyz Mob" hidden="false" id="b7e7-cd6b-ac33-4a4f">
+          <categoryLinks>
+            <categoryLink name="Line Sub-type" hidden="false" id="6383-a8a7-183e-8dcb" targetId="6399-5c65-7833-1025" primary="false"/>
+            <categoryLink name="Light Sub-type" hidden="false" id="d80a-8289-a137-e713" targetId="bff2-ae16-74a8-8712" primary="false"/>
+            <categoryLink name="Infantry Unit Type" hidden="false" id="ae53-8a49-c14b-20de" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Stikkbombs" hidden="false" id="66ee-9b4f-aba7-af0c" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be17-3569-ddf1-efb5" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e331-4676-1288-a955" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Mob Rule" id="67d2-da1f-e276-583f" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
+            <infoLink name="&apos;Ere We Go!" id="e2fc-3fdc-b262-1902" hidden="false" type="rule" targetId="d474-68f1-fd64-374d"/>
+            <infoLink name="Furious Charge (X)" id="f26f-ac49-23a1-1a6a" hidden="false" type="rule" targetId="2821-9269-862f-0554">
+              <modifiers>
+                <modifier type="set" value="Furious Charge (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Ork Boyz" id="9bc1-26d8-037e-beab" hidden="false" defaultSelectionEntryId="a6e8-8942-485b-a495">
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Ork Boy" hidden="false" id="d2c5-686c-31ad-7710">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Ork Boy" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="f0ef-14b7-81e5-9a65">
+                      <characteristics>
+                        <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Line)</characteristic>
+                        <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                        <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                        <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
+                        <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                        <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                        <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                        <characteristic name="I" typeId="62d3-22d7-2d49-52dc">2</characteristic>
+                        <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                        <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
+                        <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="set" value="4+" field="e593-6b3c-f169-04f0">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="b7e7-cd6b-ac33-4a4f" childId="37e2-5894-ba35-4116" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="Infantry (Line)" field="ddd7-6f5c-a939-b69e">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="b7e7-cd6b-ac33-4a4f" childId="37e2-5894-ba35-4116" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapon Selection" id="bab1-63eb-a1f0-50db" hidden="false" defaultSelectionEntryId="85c6-93ca-46c2-bdb5">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Slugga/Chopa" hidden="false" id="8561-2dc2-3377-192b">
+                          <entryLinks>
+                            <entryLink import="true" name="Slugga" hidden="false" id="ba71-ad20-76da-63d7" type="selectionEntry" targetId="fade-c99d-f650-9644">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb3f-d2c7-3d26-1eff" includeChildSelections="false"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0526-9763-3a25-77e7" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Exchange Choppa" id="3081-25bb-0907-e34b" hidden="false" defaultSelectionEntryId="2989-e985-d517-1994">
+                              <entryLinks>
+                                <entryLink import="true" name="Choppa" hidden="false" id="bb8b-278e-9d56-b2ce" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
+                                <entryLink import="true" name="Chainsword" hidden="false" id="1963-cd3e-78f2-f97e" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
+                              </entryLinks>
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b61-b75a-9ce4-4b16" includeChildSelections="false"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24f8-b1c5-2a41-ce6e" includeChildSelections="false" percentValue="false"/>
+                              </constraints>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="99a8-4b90-b82f-e7cd" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="645b-65bc-6876-9fd2" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="67d8-cac1-7da6-0303">
+                          <entryLinks>
+                            <entryLink import="true" name="Shoota" hidden="false" id="a784-3d5a-5041-cf8b" type="selectionEntry" targetId="6c27-7027-5202-a0b7">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e23-f8a0-e06c-3ce6" includeChildSelections="false"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88b0-3a00-4a18-a65f" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="20b2-dcc6-fd25-4171" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7ae-a8e6-2ce7-f80b" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37ac-1ec6-a97f-471b" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8e7-d162-70a3-4ca0" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="model" import="true" name="Ork Boy w/ Heavy Weapon (1 in 10)" hidden="false" id="f143-a3fd-dab7-a34e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c6ff-8684-92a6-1b5a"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="c6ff-8684-92a6-1b5a">
+                      <repeats>
+                        <repeat value="10" repeats="1" field="selections" scope="9bc1-26d8-037e-beab" childId="model" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false" percentValue="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapon Choice" id="a8c4-f7fe-b8c4-bea1" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Rokkit Launcha" hidden="false" id="5b41-ee4e-61bc-77b8" type="selectionEntry" targetId="a38c-d1fb-482b-af3a">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Big Shoota" hidden="false" id="3d80-1717-c2d1-2b54" type="selectionEntry" targetId="d142-c791-5b56-9877">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="713b-7d01-f6a7-0f8c" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4614-be31-ba98-f0b0" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="model" import="true" name="Boss Nob" hidden="false" id="13f2-526e-a9f5-3e51">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bee1-df56-561c-826b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3069-53ee-a76c-353d" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Boss Nob" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="9a63-78c4-d8ca-ce78">
+                      <characteristics>
+                        <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Light, Line)</characteristic>
+                        <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                        <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                        <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
+                        <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                        <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                        <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                        <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                        <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                        <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                        <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="set" value="4+" field="e593-6b3c-f169-04f0">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="b7e7-cd6b-ac33-4a4f" childId="37e2-5894-ba35-4116" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="Infantry (Character, Line)" field="ddd7-6f5c-a939-b69e">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="b7e7-cd6b-ac33-4a4f" childId="37e2-5894-ba35-4116" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Battle-Hardened (X)" id="f85c-a6a6-b9b1-a0da" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
+                      <modifiers>
+                        <modifier type="set" value="Battle-Hardened (1) (Boss Nob)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Wargear Selection" id="df53-9237-b0fc-a5c5" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Ammo Runt" hidden="false" id="4f3d-b8a5-3114-5152" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3ba9-5877-79a0-855a" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9822-2ea7-51d5-5bfc" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Bosspole" hidden="false" id="dfe5-b284-99f5-5f15" type="selectionEntry" targetId="e529-4fe1-c563-2ab6">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9247-98ee-303b-5ca7" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b723-febf-a2be-76a6" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Cybork Body" hidden="false" id="753a-44a3-62b8-7d47" type="selectionEntry" targetId="2ed4-a9ea-18a0-1428">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c39e-b3ae-50ec-dd69" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c21-8f50-9a36-0d63" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Gitfinda" hidden="false" id="02c7-91b0-4ede-d755" type="selectionEntry" targetId="0cbb-65dd-daea-e2d5">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9e44-b95e-d463-9b31" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f984-a0d8-b974-928e" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="ab89-66cb-fe17-3669" type="selectionEntry" targetId="75cc-69bb-9c31-659b">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c68e-5a57-6974-8f4f" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15de-0995-2152-72a4" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Exchange Choppa" id="4bdc-239a-2157-4db6" hidden="false" defaultSelectionEntryId="2989-e985-d517-1994">
+                      <entryLinks>
+                        <entryLink import="true" name="Choppa" hidden="false" id="1102-44a5-ed6c-1d1c" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="cb8e-0dc1-86ee-00a5" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
+                        <entryLink import="true" name="Power Sword" hidden="false" id="694c-e8ba-b13a-3616" type="selectionEntry" targetId="a3cd-aa97-a148-2309">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Power Axe" hidden="false" id="9236-968a-4a51-19fa" type="selectionEntry" targetId="c066-2ace-f68c-e440">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Power Maul" hidden="false" id="918e-f378-2e9b-bf40" type="selectionEntry" targetId="0df4-c67e-cf64-82e0">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Power Klaw" hidden="false" id="16cf-bb1e-5b98-6dd7" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9987-dd33-6882-59ed" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a821-4990-5ff9-6330" includeChildSelections="false" percentValue="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Exchange Slugga" id="1b07-0acb-f6ae-19b2" hidden="false" defaultSelectionEntryId="d013-ed48-ff52-d802">
+                      <entryLinks>
+                        <entryLink import="true" name="Slugga" hidden="false" id="dbc4-e462-85f8-27a3" type="selectionEntry" targetId="fade-c99d-f650-9644">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eafa-2e81-d63b-9acb" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Shoota" hidden="false" id="3859-99fe-e759-b707" type="selectionEntry" targetId="6c27-7027-5202-a0b7">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcca-3df2-7cb4-4739" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="ded1-bbaa-bdfc-8a0f" type="selectionEntry" targetId="1ba0-e4fe-6daf-0b92">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="87b8-7bdc-4a78-bbed" type="selectionEntry" targetId="e7cb-aea7-eb56-4c84">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="4065-01fe-7388-9268" type="selectionEntry" targetId="2e28-26b7-b137-dbc1">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f40-3c11-624b-48c3" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d5d-6431-e178-245e" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="baec-5926-3140-70f7"/>
+                <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="dd23-47f1-b085-7dc8" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Armour" id="58c4-3a96-ee0c-d714" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="&apos;Eavy Armour" hidden="false" id="bd4f-6a2e-d5b0-9593" type="selectionEntry" targetId="37e2-5894-ba35-4116">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77b0-cdfb-7572-ff44" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="2" field="d2ee-04cb-5f8a-2642">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="b7e7-cd6b-ac33-4a4f" childId="9bc1-26d8-037e-beab" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Dedicated Transport" id="8345-3ef1-2443-3252" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Trukk" hidden="false" id="4e07-67be-813f-6c9f" type="selectionEntry" targetId="0b36-225f-f55a-a090">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffbe-2362-848d-38ea" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Burna Mob" hidden="false" id="b3af-93d1-e679-a8e6">
       <categoryLinks>
@@ -2622,12 +2971,449 @@ Warp.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Nobz Mob" hidden="false" id="c348-72ac-0c8e-1fc4">
+      <categoryLinks>
+        <categoryLink name="Line Sub-type" hidden="false" id="480f-a3f0-db42-adda" targetId="6399-5c65-7833-1025" primary="false"/>
+        <categoryLink name="Light Sub-type" hidden="false" id="ebb2-c1ed-5a91-c3e8" targetId="bff2-ae16-74a8-8712" primary="false"/>
+        <categoryLink name="Infantry Unit Type" hidden="false" id="864b-0420-f29c-a86b" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Stikkbombs" hidden="false" id="e00e-d933-2901-cc4d" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e263-eef6-6132-8408" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce47-9153-fc62-001b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Mob Rule" id="cd4e-5cf8-9cfe-6586" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
+        <infoLink name="&apos;Ere We Go!" id="896a-fa2e-f7f7-300f" hidden="false" type="rule" targetId="d474-68f1-fd64-374d"/>
+        <infoLink name="Furious Charge (X)" id="23b6-b470-2f14-665a" hidden="false" type="rule" targetId="2821-9269-862f-0554">
+          <modifiers>
+            <modifier type="set" value="Furious Charge (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Battle-Hardened (X)" id="f06c-6f76-b0bc-b71d" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
+          <modifiers>
+            <modifier type="set" value="Battle-Hardened (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Nobz" id="9e4e-9e86-ec5e-3dc2" hidden="false" defaultSelectionEntryId="a6e8-8942-485b-a495">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="cd64-114c-07b6-8e13">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
+              </costs>
+              <profiles>
+                <profile name="Nob" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="73f9-93ed-c771-efe0">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Line)</characteristic>
+                    <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                    <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
+                    <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                    <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4+" field="e593-6b3c-f169-04f0">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Infantry (Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapon" id="8659-52fc-9485-c94d" hidden="false" defaultSelectionEntryId="a56f-2a3b-cc3f-5160">
+                  <entryLinks>
+                    <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="54a7-4738-6a11-456a" type="selectionEntry" targetId="1ba0-e4fe-6daf-0b92">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="637e-e9df-610d-5ba6" type="selectionEntry" targetId="2e28-26b7-b137-dbc1">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="ad2f-f247-d834-6d60" type="selectionEntry" targetId="e7cb-aea7-eb56-4c84">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Slugga" hidden="false" id="a56f-2a3b-cc3f-5160" type="selectionEntry" targetId="fade-c99d-f650-9644"/>
+                    <entryLink import="true" name="Shoota" hidden="false" id="8b6a-74f1-a463-f78f" type="selectionEntry" targetId="6c27-7027-5202-a0b7"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="240d-65ba-cd26-b92d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8552-e0d7-0b25-e975" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Wargear Selection" id="a7f5-2f49-646a-6579" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Ammo Runt" hidden="false" id="2679-5fa8-08c0-5a81" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4e8d-dfad-5f61-1ec6" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ae4-ff69-82d9-b2ab" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Bosspole" hidden="false" id="bd1c-0faa-ce2e-4b86" type="selectionEntry" targetId="e529-4fe1-c563-2ab6">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="39f6-aba6-cc6e-c28a" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2d8-b1cb-bd0c-ce9d" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="98a5-4333-1f5d-7385" type="selectionEntry" targetId="75cc-69bb-9c31-659b">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0331-6113-a8d2-27df" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5548-1f91-f4f5-dd36" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Cybork Body" hidden="true" id="8989-79a8-3969-7744" type="selectionEntry" targetId="2ed4-a9ea-18a0-1428">
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="6e3e-cd75-d1c7-5f3d" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2660-7493-5ad2-73b2" includeChildSelections="false"/>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="28e7-6c25-3b7a-0896" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapon" id="60b3-8b28-e179-8b38" hidden="false" defaultSelectionEntryId="2379-d02d-e3be-b257">
+                  <entryLinks>
+                    <entryLink import="true" name="Choppa" hidden="false" id="2379-d02d-e3be-b257" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="4a51-9c07-a649-7f8f" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
+                    <entryLink import="true" name="Power Sword" hidden="false" id="d59f-0083-98d6-cd6e" type="selectionEntry" targetId="a3cd-aa97-a148-2309">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Axe" hidden="false" id="0a2e-fdfd-026f-fef0" type="selectionEntry" targetId="c066-2ace-f68c-e440">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Klaw" hidden="false" id="49b8-5fe7-21b1-fbac" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Big Choppa" hidden="false" id="70ab-1018-512e-0f74" type="selectionEntry" targetId="22ff-b1e7-2d19-b194">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Maul" hidden="false" id="40c3-0f2c-41b2-c663" type="selectionEntry" targetId="0df4-c67e-cf64-82e0">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="892c-5364-2eeb-8ca0" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="691e-1c59-ff5c-376b" includeChildSelections="false" percentValue="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Nob with Waaagh! Banner" hidden="false" id="16b5-a2d6-8dd4-874c">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="36"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2608-1b0d-5baf-59be"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="eac7-6b60-92c1-69bf" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Melee Weapon" id="4dd2-8442-b05f-f2cd" hidden="false" defaultSelectionEntryId="2379-d02d-e3be-b257">
+                  <entryLinks>
+                    <entryLink import="true" name="Choppa" hidden="false" id="8da7-7e1f-90e6-e8b1" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="b9f8-0434-6121-57d1" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
+                    <entryLink import="true" name="Power Sword" hidden="false" id="2a55-b1b5-53d1-4e15" type="selectionEntry" targetId="a3cd-aa97-a148-2309">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Axe" hidden="false" id="1979-54c3-b855-1943" type="selectionEntry" targetId="c066-2ace-f68c-e440">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Klaw" hidden="false" id="7744-26cd-214c-c33f" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Big Choppa" hidden="false" id="1467-2490-e4f9-b612" type="selectionEntry" targetId="22ff-b1e7-2d19-b194">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Maul" hidden="false" id="353c-764c-c46c-7236" type="selectionEntry" targetId="0df4-c67e-cf64-82e0">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a327-1761-c243-37af" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="532d-1019-ff7b-d94d" includeChildSelections="false" percentValue="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Ranged Weapon" id="310e-051e-3688-51c7" hidden="false" defaultSelectionEntryId="a56f-2a3b-cc3f-5160">
+                  <entryLinks>
+                    <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="8f0a-8080-4b55-1bff" type="selectionEntry" targetId="1ba0-e4fe-6daf-0b92">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="99b0-8f20-d87b-07f2" type="selectionEntry" targetId="2e28-26b7-b137-dbc1">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="a53d-743b-9a60-2b59" type="selectionEntry" targetId="e7cb-aea7-eb56-4c84">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Slugga" hidden="false" id="8b4d-6c86-ffbb-5afd" type="selectionEntry" targetId="fade-c99d-f650-9644"/>
+                    <entryLink import="true" name="Shoota" hidden="false" id="3954-bfad-eec4-6556" type="selectionEntry" targetId="6c27-7027-5202-a0b7"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9546-09c5-51ce-efd7" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d441-d04b-751c-1e98" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Wargear Selection" id="f147-9595-87ea-4772" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Ammo Runt" hidden="false" id="5491-caff-49c8-174a" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="549a-0975-bef1-9a4e" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1f9-2870-4e50-fd62" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Bosspole" hidden="false" id="3316-3b11-2516-186e" type="selectionEntry" targetId="e529-4fe1-c563-2ab6">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f597-8627-acb4-f3ed" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a78-5013-cb10-473f" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="3281-4eab-719e-5a12" type="selectionEntry" targetId="75cc-69bb-9c31-659b">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a0fc-d4bc-4582-4389" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83c8-0d70-ae12-6d83" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Cybork Body" hidden="true" id="a33f-49fb-7d31-2b0e" type="selectionEntry" targetId="2ed4-a9ea-18a0-1428">
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="6e3e-cd75-d1c7-5f3d" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca00-3182-dfa8-00bb" includeChildSelections="false"/>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0505-3220-c1bd-609c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Painboy" hidden="false" id="6e3e-cd75-d1c7-5f3d">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2595-2004-9bdc-914d" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a813-a914-3de0-1844" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="46"/>
+              </costs>
+              <profiles>
+                <profile name="Painboy" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="2a5d-a5cc-98de-02b1">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Light, Line)</characteristic>
+                    <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                    <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
+                    <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                    <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4+" field="e593-6b3c-f169-04f0">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Infantry (Character, Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Battle-Hardened (X)" id="3a13-e558-8ebd-9252" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
+                  <modifiers>
+                    <modifier type="set" value="Battle-Hardened (1) (Boss Nob)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Painboy Wargear Selection" id="50ed-11f9-ae9e-534b" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Grot Orderly" hidden="false" id="9da3-f30e-ca39-c39c" type="selectionEntry" targetId="e8f2-8271-9a53-88f7">
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5e51-37ef-d8e6-8533" includeChildSelections="false"/>
+                        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b918-dce4-6abf-5a68" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Cybork Body" hidden="false" id="2c69-9f5d-5e2e-b681" type="selectionEntry" targetId="2ed4-a9ea-18a0-1428">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2fd-8e8f-9e11-c21b" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Attack Squig" hidden="false" id="568d-900f-fbb1-bbfe" type="selectionEntry" targetId="03ee-d31d-76cd-8aca">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="061d-25db-079e-627b" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Power Klaw" hidden="false" id="55ae-5f37-969d-5d19" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="24"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a744-fc73-6a5a-025d" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="&apos;Urty Syringe" hidden="false" id="da7e-3a43-5f22-bc96" type="selectionEntry" targetId="0276-dbc3-77cf-b165">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="539a-294d-51dd-7893" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48b6-9e51-3489-ac32" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Dok&apos;s Tools" hidden="false" id="9df4-d995-6b51-d9af" type="selectionEntry" targetId="9ef9-9b31-b6c3-7fa5">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8711-2db0-7642-31dd" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dee6-e8bf-81dc-3052" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6f80-0208-eeff-64d7"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="c32b-9bda-bade-9373" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Armour" id="741f-3271-7df4-d8e6" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="&apos;Eavy Armour" hidden="false" id="5115-2f1e-cf1e-87bb" type="selectionEntry" targetId="37e2-5894-ba35-4116">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fac9-fe90-a308-ca6a" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="2" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="c348-72ac-0c8e-1fc4" childId="9e4e-9e86-ec5e-3dc2" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="3af7-ad7d-c0eb-28d3" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Trukk" hidden="false" id="ddbd-8f04-2761-3410" type="selectionEntry" targetId="0b36-225f-f55a-a090">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8ca-852e-f67f-3a1b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="false" name="Boyz Mob" hidden="false" id="1f68-22d4-f782-683a" type="selectionEntry" targetId="1179-9f71-5fb8-9c7f">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="fc08-ad54-c6dc-01ef" primary="true" name="Troops:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="5845-7a22-cdc8-b31e" primary="false" name="Unit:"/>
+        <categoryLink targetId="8f42-a824-fb5f-8fea" id="dd01-1ee9-01f8-3412" primary="false" name="Compulsory Troops:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="false" name="Burna Mob" hidden="false" id="c546-6aa5-9bc3-ee37" type="selectionEntry" targetId="b3af-93d1-e679-a8e6">
@@ -2649,31 +3435,41 @@ Warp.</description>
     <entryLink import="true" name="Killa Kan Mob" hidden="false" id="3850-5b44-b996-f8b2" type="selectionEntry" targetId="ade3-e0d5-93dc-307a">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="0829-01dc-8645-776d" primary="true" name="Troops:"/>
+        <categoryLink targetId="8f42-a824-fb5f-8fea" id="d293-5a87-a49a-2d7d" primary="false" name="Compulsory Troops:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Warboss" hidden="false" id="9de4-eef6-5f05-2585" type="selectionEntry" targetId="5223-400e-69cd-b613">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="4c7e-af6d-6c31-ca19" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="21f5-2580-8981-2091" primary="false" name="Compulsory HQ:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Mega Warboss" hidden="false" id="9312-3901-e28b-a720" type="selectionEntry" targetId="6a62-4741-e016-6c48">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="c510-9c0a-e4a8-3f5a" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="6724-0ef7-0292-bd72" primary="false" name="Compulsory HQ:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Big Mek" hidden="false" id="a84c-bdfe-1e7c-b8bb" type="selectionEntry" targetId="8e4c-3c75-8633-e157">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="1fbb-f917-ec25-46ad" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="edbb-d3eb-05fb-ef6c" primary="false" name="Compulsory HQ:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Mega Big Mek" hidden="false" id="7321-841d-39b7-4c00" type="selectionEntry" targetId="9b76-eb16-cdd8-2d6d">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="099b-5170-56a8-b302" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="aee6-5c0e-6ea8-9a9e" primary="false" name="Compulsory HQ:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Weirdboy" hidden="false" id="0ef8-5d98-2873-1e89" type="selectionEntry" targetId="61a0-dddb-8594-35a3">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="e7fb-0318-7e6b-5e90" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nobz Mob" hidden="false" id="775c-b2af-b195-1853" type="selectionEntry" targetId="c348-72ac-0c8e-1fc4">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="0566-fa8b-7f7b-5e56" primary="true" name="Elites:"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
