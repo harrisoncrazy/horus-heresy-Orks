@@ -1732,15 +1732,6 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30d2-4965-e752-2924" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Iron Gob/Big Horn" hidden="false" id="df7b-828c-ff93-e236" type="selectionEntry" targetId="75cc-69bb-9c31-659b">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-              </costs>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="64dd-b864-c551-cabb" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18e1-e499-07f3-2023" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Attack Squig" hidden="false" id="9a8d-8c44-189d-6769" type="selectionEntry" targetId="03ee-d31d-76cd-8aca">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -9437,6 +9428,11 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
         <categoryLink targetId="20ef-cd01-a8da-376e" id="3a30-5d9c-e01f-6d1e" primary="true" name="Fast Attack:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Orks Army List" hidden="false" id="bedb-c8c6-1fcf-dac2" type="selectionEntry" targetId="0883-1e65-fd0b-e3c5">
+      <categoryLinks>
+        <categoryLink targetId="e90d-e5a8-f42d-da84" id="f1dd-069a-01ff-c540" primary="true" name="Allegiance:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="OrksWargear" id="9440-deef-5173-5b05" targetId="33d7-0b5a-7a0f-61e0"/>
@@ -9563,6 +9559,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <comment>TODO: Automate adding brutal/More Dakka rules</comment>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

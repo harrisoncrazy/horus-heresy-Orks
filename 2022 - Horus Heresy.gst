@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022)" revision="111" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022)" revision="112" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -2465,6 +2465,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Beholden to None" hidden="true" id="ca61-ace9-f76b-16c5" type="selectionEntry" targetId="956a-36dc-217e-63b1"/>
+            <entryLink import="true" name="Orks" hidden="true" id="13a3-ffd4-f6d2-6ad8" type="selectionEntry" targetId="4424-55fa-e3fa-068c"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="ca61-ace9-f76b-16c5" field="defaultSelectionEntryId">
@@ -10820,6 +10821,37 @@ Be aware that we are actively trying to find a solution to this, but it is less 
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Orks" hidden="false" id="4424-55fa-e3fa-068c">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1cf-a2ef-52ed-e1a3" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="0883-1e65-fd0b-e3c5" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Orks Army List" hidden="false" id="0883-1e65-fd0b-e3c5">
+      <rules>
+        <rule name="Orks Advanced Reaction" id="6b78-9930-c037-fceb" hidden="false">
+          <description>Orks Advanced Reaction:
+
+This Advanced Reaction is available only to units as part of an Orks Detachment. Unlike Core Reactions, it is activated in unique and specific circumstances, as noted in its description, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
+
+
+Waaagh! – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control. The Reacting unit must be from the Orks Detachment and must contain one or more models with the Warboss Unit Sub-type. The Reacting unit gains the Crusader, Fear (1) and Fearless special rules for the remainder of the phase. Once the Shooting Attack has been completely resolved, the Reacting unit may make a Charge targeting the enemy unit that made the Shooting Attack. The Charge must follow all the normal rules for Charging, except that the enemy unit may be further away than the Reacting unit’s Maximum Charge Distance. The enemy unit may not make a Reaction to this Charge, and if the Charge fails the Reacting unit may make a Surge Move as normal.
+
+In addition, after the Charge Move (or Surge Move) is made, friendly units within 12&quot; of models with the Warboss Unit Sub-type in the Reacting unit may also move. Units must be made up entirely of models with the ‘Ere We Go! special rule and eligible to make a Reaction to perform this move. Each unit’s move distance may be a number of inches up to its unmodified Initiative Characteristic, moving each model in the unit directly towards the enemy unit that made the Shooting Attack by the shortest available path. In a unit with mixed Initiative Characteristics, use the highest unmodified Characteristic. Any unit that makes a move as part of this Reaction counts as having made a Reaction in this Phase.</description>
+        </rule>
+        <rule name="The Orks Army List" id="3f46-c1e4-800e-e3fe" hidden="false">
+          <description>Orks count as neither Loyalist nor Traitor forces. In a campaign setting, any victories the Orks win serve only to deny that victory to whichever force they were fighting. 
+
+Orks may be part of an alliance with other factions, but always count as By The Emperor’s (or The Warmaster’s) Command when doing so, unless a specific rule allows an exception. However, an Orks Detachment may never be part of an army that includes a Primarch.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
