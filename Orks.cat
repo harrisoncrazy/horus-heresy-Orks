@@ -386,11 +386,33 @@
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="7a66-e7f4-c3d2-54f4" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="028e-62cb-f7aa-419c" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -710,11 +732,33 @@
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="67d6-f385-a466-0c6f" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e39-6c47-e637-d91d" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -727,6 +771,16 @@
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="d54f-f4b4-61f2-f400">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f3fa-b40d-4821-3808" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -1063,11 +1117,33 @@
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="bead-fbaf-6658-79c4" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a0b-4daf-075e-5a02" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1075,6 +1151,30 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b7bf-e8ad-89b1-524c" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="0" field="b7bf-e8ad-89b1-524c">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="052c-f5df-9a70-e82d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="b7bf-e8ad-89b1-524c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gretchin Mob" hidden="false" id="1d4b-810a-94f4-b9dc">
       <categoryLinks>
@@ -1460,7 +1560,7 @@
         <categoryLink targetId="4f07-3d45-4f28-a0c6" id="6d78-5b9b-d05d-1500" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Exchange Choppa" id="fc44-dab4-2d2e-867a" hidden="false" defaultSelectionEntryId="a661-a92a-bc94-e50c" sortIndex="5">
+        <selectionEntryGroup name="Exchange Choppa" id="fc44-dab4-2d2e-867a" hidden="false" defaultSelectionEntryId="a661-a92a-bc94-e50c" sortIndex="8">
           <entryLinks>
             <entryLink import="true" name="Choppa" hidden="false" id="a661-a92a-bc94-e50c" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
             <entryLink import="true" name="Chainsword" hidden="false" id="0d95-11db-3276-c6eb" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
@@ -1495,7 +1595,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4dd-0d20-0731-6340" includeChildSelections="false" percentValue="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Exchange Slugga" id="d504-b2ad-8da9-b549" hidden="false" defaultSelectionEntryId="fed5-593f-1dad-f586" sortIndex="6">
+        <selectionEntryGroup name="Exchange Slugga" id="d504-b2ad-8da9-b549" hidden="false" defaultSelectionEntryId="fed5-593f-1dad-f586" sortIndex="9">
           <entryLinks>
             <entryLink import="true" name="Big Choppa" hidden="false" id="c4e8-3f88-86d0-8d8d" type="selectionEntry" targetId="22ff-b1e7-2d19-b194">
               <costs>
@@ -1542,7 +1642,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7701-1009-9279-b8a3" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Optional Ranged Weapon" id="efda-3c8c-fc10-2543" hidden="false" defaultSelectionEntryId="d013-ed48-ff52-d802" sortIndex="7">
+        <selectionEntryGroup name="Optional Ranged Weapon" id="efda-3c8c-fc10-2543" hidden="false" defaultSelectionEntryId="d013-ed48-ff52-d802" sortIndex="10">
           <entryLinks>
             <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="9791-a7d7-0cf9-71a8" type="selectionEntry" targetId="e7cb-aea7-eb56-4c84">
               <costs>
@@ -1582,7 +1682,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84c9-bb5f-1841-d1ed" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Wargear Selection" id="fc93-b6d3-6065-71a9" hidden="false" sortIndex="8">
+        <selectionEntryGroup name="Wargear Selection" id="fc93-b6d3-6065-71a9" hidden="false" sortIndex="11">
           <entryLinks>
             <entryLink import="true" name="Ammo Runt" hidden="false" id="66da-975c-5491-d02a" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
               <costs>
@@ -1640,7 +1740,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Ork Clan" id="4ed5-a380-b0f3-9947" hidden="false" sortIndex="11" defaultSelectionEntryId="c048-fb97-6220-73e9">
+        <selectionEntryGroup name="Ork Clan" id="4ed5-a380-b0f3-9947" hidden="false" sortIndex="14" defaultSelectionEntryId="c048-fb97-6220-73e9">
           <entryLinks>
             <entryLink import="true" name="Bad Moons" hidden="false" id="ef1f-e2a0-e4be-e014" type="selectionEntry" targetId="8372-da27-3575-d653" sortIndex="1"/>
             <entryLink import="true" name="Blood Axes" hidden="false" id="c01f-5591-16de-6cf8" type="selectionEntry" targetId="44c8-f3da-c618-bc2d" sortIndex="2"/>
@@ -1654,6 +1754,152 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="adac-b417-2bcc-b1f8" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21bf-4303-3187-1a87" includeChildSelections="false"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Deathskulls Warboss Weapon" id="9e11-66d6-7cce-e725" hidden="true" sortIndex="5" collapsible="false">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Bolter" hidden="false" id="2b8e-5a0d-702f-d0a2" type="selectionEntry" targetId="1ade-0c02-5612-252b" sortIndex="2">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="6954-61fb-14d3-49ef" type="selectionEntry" targetId="4d02-259d-fa50-ef3a" sortIndex="9">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="45eb-4937-2430-8c7e" type="selectionEntry" targetId="53c0-b5d7-f001-b816" sortIndex="7">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Charger" hidden="false" id="da92-c638-4a38-ae18" type="selectionEntry" targetId="6f6e-ad55-e093-6503" sortIndex="4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Nemesis Bolter" hidden="false" id="08d7-9863-8286-9322" type="selectionEntry" targetId="c10a-61f8-9c33-fe8a" sortIndex="10">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Serpenta" hidden="false" id="41d4-4475-88f6-1adc" type="selectionEntry" targetId="d535-1da8-290d-69a6" sortIndex="5">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Plasma Pistol" hidden="false" id="53d8-e58f-9e88-4727" type="selectionEntry" targetId="717f-cf0a-1593-4bd8" sortIndex="11">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Chainaxe" hidden="false" id="d49f-ad8a-6aa0-8c4d" type="selectionEntry" targetId="85b9-4e50-af11-c295" sortIndex="6">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Charnabal Weapon" hidden="false" id="d91f-f407-579d-0cb8" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9" sortIndex="8">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Power Weapon" hidden="false" id="c1e6-b12d-2c6d-3043" type="selectionEntry" targetId="d2db-7598-f55f-86fe" sortIndex="14">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Hand Flamer" hidden="false" id="0e19-726b-a3dd-7bf3" type="selectionEntry" targetId="e337-adf4-a11f-0280" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Astartes Shotgun" hidden="false" id="18a0-7f6a-3489-d283" type="selectionEntry" targetId="6f79-5cf4-a689-7269" sortIndex="1">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Thunder Hammer" hidden="false" id="25a1-9345-abf9-57a8" type="selectionEntry" targetId="838c-4002-713d-d7c6" sortIndex="16">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="82fd-7634-e86d-749a" type="selectionEntry" targetId="a6d2-b3a9-6d2c-1f6f" sortIndex="13">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Lightning Claw" hidden="false" id="a970-ee6c-c587-1d5d" type="selectionEntry" targetId="6923-4e42-5691-b13f" sortIndex="12">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Power Fist" hidden="false" id="fc0f-2661-e177-e5a9" type="selectionEntry" targetId="768d-b89b-7328-d749" sortIndex="15">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ff03-5a63-c71f-b87a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="811b-8ae9-66b2-c7df" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="a3f0-889e-f8e0-58bc" hidden="true" sortIndex="6">
+          <entryLinks>
+            <entryLink import="true" name="Trukk" hidden="false" id="9a68-c2fc-7ecd-129b" type="selectionEntry" targetId="0b36-225f-f55a-a090">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c72-491c-4634-7ca8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Battlewagon" hidden="false" id="f89a-ab70-2475-92be" type="selectionEntry" targetId="2e1f-1e56-2939-2083">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b6e-d7ea-8f40-86d6" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="greaterThan" value="12" field="selections" scope="parent" childId="model" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="9e31-d42e-5898-6ecc" shared="true"/>
+                          </conditions>
+                          <comment>TODO: Fix this to work - checking for 12 transport cap. if Killkannon</comment>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="greaterThan" value="20" field="selections" scope="parent" childId="model" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="1edc-dff4-8135-7298" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -1710,6 +1956,11 @@
         <infoLink name="Bulky (X)" id="ae29-08b7-8a38-9109" hidden="false" type="rule" targetId="676c-7b75-4b6f-9405">
           <modifiers>
             <modifier type="set" value="Bulky (2)" field="name"/>
+            <modifier type="set" value="Bulky (3)" field="name">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="60fc-a812-7312-0d52" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="&apos;Ere We Go!" id="0602-055f-aaea-1e7d" hidden="false" type="rule" targetId="d474-68f1-fd64-374d"/>
@@ -1789,7 +2040,7 @@
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Warbike" hidden="false" id="62e0-d2c8-1511-041d" type="selectionEntry" targetId="bc5b-03c2-1b40-8cb6" sortIndex="3">
+        <entryLink import="true" name="Warbike" hidden="false" id="62e0-d2c8-1511-041d" type="selectionEntry" targetId="bc5b-03c2-1b40-8cb6" sortIndex="2">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96c2-dd30-5ae1-8a4d" includeChildSelections="false"/>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="94bb-dddc-c2fa-6958" includeChildSelections="false"/>
@@ -1797,8 +2048,15 @@
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="60fc-a812-7312-0d52" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="5440-8247-498f-f6c8" type="selectionEntry" targetId="0176-56a3-d590-b103" sortIndex="12">
+        <entryLink import="true" name="Warlord" hidden="false" id="5440-8247-498f-f6c8" type="selectionEntry" targetId="0176-56a3-d590-b103" sortIndex="15">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9c03-d5c2-65b4-72da" includeChildSelections="false"/>
           </constraints>
@@ -1810,23 +2068,45 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord Traits" hidden="false" id="a5eb-d992-ef8d-741d" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed" sortIndex="13"/>
-        <entryLink import="true" name="Deflektor" hidden="false" id="3c55-691e-91b6-619a" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74" sortIndex="10">
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="a5eb-d992-ef8d-741d" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed" sortIndex="16"/>
+        <entryLink import="true" name="Deflektor" hidden="false" id="3c55-691e-91b6-619a" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74" sortIndex="13">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="213f-6bc2-3e0d-e3fc" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02e2-67ad-260c-3e1c" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Stikkbombs" hidden="false" id="dfaa-c120-f766-84de" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5" sortIndex="9">
+        <entryLink import="true" name="Stikkbombs" hidden="false" id="dfaa-c120-f766-84de" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5" sortIndex="12">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1863-20f3-185a-db2a" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e4c-309b-020c-1444" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="&apos;Eavy Armour" hidden="false" id="013f-19f6-dd8a-da9c" type="selectionEntry" targetId="37e2-5894-ba35-4116" sortIndex="4">
+        <entryLink import="true" name="&apos;Eavy Armour" hidden="false" id="013f-19f6-dd8a-da9c" type="selectionEntry" targetId="37e2-5894-ba35-4116" sortIndex="7">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db1c-921d-55d5-ab11" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3582-f43b-3768-5071" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Rokkit Pack" hidden="true" id="8eb7-60ed-81c9-1c06" type="selectionEntry" targetId="60fc-a812-7312-0d52" sortIndex="4">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7b1a-a5c3-28bd-f737" shared="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="bc5b-03c2-1b40-8cb6" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="Goffs Rokkit Pack" field="name"/>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e30b-5f5d-00c5-903d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a306-492c-4a0d-4199" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1847,7 +2127,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Blood Axes Upgrade" hidden="true" id="4d2f-db1a-40ef-2c53" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Blood Axes Upgrade" hidden="true" id="4d2f-db1a-40ef-2c53" sortIndex="3">
           <rules>
             <rule name="Blood Axes Upgrade" id="4245-0c80-a334-83d9" hidden="false">
               <description>A Blood Axes Warboss may gain the Move Through Cover and Scout special rules and the Skirmish Unit Sub-type for 15 points.</description>
@@ -1902,7 +2182,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1f0e-f682-700b-40d6" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Ranged Weapon" id="649b-06b0-0dd3-ce36" hidden="false" defaultSelectionEntryId="38bb-709f-14dd-a45e" sortIndex="2">
+        <selectionEntryGroup name="Ranged Weapon" id="649b-06b0-0dd3-ce36" hidden="false" defaultSelectionEntryId="38bb-709f-14dd-a45e" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="38bb-709f-14dd-a45e" type="selectionEntry" targetId="1ba0-e4fe-6daf-0b92"/>
             <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="b2ab-47ae-f460-b5be" type="selectionEntry" targetId="2e28-26b7-b137-dbc1">
@@ -1933,7 +2213,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be85-57ec-a535-c2af" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Wargear Selection" id="5bea-50d1-584c-9c66" hidden="false" sortIndex="3">
+        <selectionEntryGroup name="Wargear Selection" id="5bea-50d1-584c-9c66" hidden="false" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Ammo Runt" hidden="false" id="237e-c127-ace4-b134" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
               <costs>
@@ -1973,7 +2253,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Ork Clan" id="2f7e-cf73-1424-4dca" hidden="false" defaultSelectionEntryId="c048-fb97-6220-73e9" sortIndex="7">
+        <selectionEntryGroup name="Ork Clan" id="2f7e-cf73-1424-4dca" hidden="false" defaultSelectionEntryId="c048-fb97-6220-73e9" sortIndex="8">
           <entryLinks>
             <entryLink import="true" name="Bad Moons" hidden="false" id="e42e-4997-c07a-3372" type="selectionEntry" targetId="8372-da27-3575-d653" sortIndex="1"/>
             <entryLink import="true" name="Blood Axes" hidden="false" id="8da3-2f83-546c-ec26" type="selectionEntry" targetId="44c8-f3da-c618-bc2d" sortIndex="2"/>
@@ -1986,6 +2266,101 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d743-5035-a64c-5840" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77c4-b3d2-1721-684c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Deathskulls Warboss Weapon" id="a520-23ed-10f9-29aa" hidden="true" collapsible="false" sortIndex="2">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Bolter" hidden="false" id="14d0-bce6-225e-42e9" type="selectionEntry" targetId="1ade-0c02-5612-252b" sortIndex="2">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="2550-a571-2d7d-a8e1" type="selectionEntry" targetId="4d02-259d-fa50-ef3a" sortIndex="9">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="93fb-885f-6707-a4e6" type="selectionEntry" targetId="53c0-b5d7-f001-b816" sortIndex="7">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Charger" hidden="false" id="7840-033d-cc50-6db1" type="selectionEntry" targetId="6f6e-ad55-e093-6503" sortIndex="4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Nemesis Bolter" hidden="false" id="8d0b-0faa-330d-3508" type="selectionEntry" targetId="c10a-61f8-9c33-fe8a" sortIndex="10">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Serpenta" hidden="false" id="8f62-5c39-980d-4e73" type="selectionEntry" targetId="d535-1da8-290d-69a6" sortIndex="5">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Plasma Pistol" hidden="false" id="c3ba-d5a6-916f-38a7" type="selectionEntry" targetId="717f-cf0a-1593-4bd8" sortIndex="11">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Chainaxe" hidden="false" id="a4ef-b0a7-12db-c064" type="selectionEntry" targetId="85b9-4e50-af11-c295" sortIndex="6">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Charnabal Weapon" hidden="false" id="d897-7a7e-e743-224b" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9" sortIndex="8">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Power Weapon" hidden="false" id="b516-f3e9-ad6f-7a91" type="selectionEntry" targetId="d2db-7598-f55f-86fe" sortIndex="14">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Hand Flamer" hidden="false" id="a077-39ae-ff35-0e64" type="selectionEntry" targetId="e337-adf4-a11f-0280" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Astartes Shotgun" hidden="false" id="fdb2-8eed-71b1-b6be" type="selectionEntry" targetId="6f79-5cf4-a689-7269" sortIndex="1">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Thunder Hammer" hidden="false" id="1dd4-0a0d-6792-549a" type="selectionEntry" targetId="838c-4002-713d-d7c6" sortIndex="16">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="2a5b-b059-682f-6f6e" type="selectionEntry" targetId="a6d2-b3a9-6d2c-1f6f" sortIndex="13">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Lightning Claw" hidden="false" id="8418-0dba-a492-2546" type="selectionEntry" targetId="6923-4e42-5691-b13f" sortIndex="12">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Power Fist" hidden="false" id="a90d-1a3f-ba5e-4c62" type="selectionEntry" targetId="768d-b89b-7328-d749" sortIndex="15">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="016e-b94c-89cc-7b12" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbbc-2843-a141-74ef" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2112,8 +2487,8 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Warlord Traits" hidden="false" id="e9dd-5a05-4dbf-3cf6" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed" sortIndex="9"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b66b-0422-04fe-7e82" type="selectionEntry" targetId="0176-56a3-d590-b103" sortIndex="8">
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="e9dd-5a05-4dbf-3cf6" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed" sortIndex="10"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="b66b-0422-04fe-7e82" type="selectionEntry" targetId="0176-56a3-d590-b103" sortIndex="9">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d7f3-7d07-7bec-6239" includeChildSelections="false"/>
           </constraints>
@@ -2125,19 +2500,19 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Deflektor" hidden="false" id="e87e-0bd7-3a32-09ce" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74" sortIndex="6">
+        <entryLink import="true" name="Deflektor" hidden="false" id="e87e-0bd7-3a32-09ce" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74" sortIndex="7">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17e9-f155-c3af-f672" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddf7-621f-f92f-b7ed" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Mega Armour" hidden="false" id="75ae-3e88-a491-81ff" type="selectionEntry" targetId="d71f-3901-d77f-2d41" sortIndex="4">
+        <entryLink import="true" name="Mega Armour" hidden="false" id="75ae-3e88-a491-81ff" type="selectionEntry" targetId="d71f-3901-d77f-2d41" sortIndex="5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f81a-2513-af6b-41a9" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a5c-a5ff-8340-194f" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Stikkbombs" hidden="false" id="a4a4-73c5-1544-f682" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5" sortIndex="5">
+        <entryLink import="true" name="Stikkbombs" hidden="false" id="a4a4-73c5-1544-f682" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5" sortIndex="6">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e7c-9d86-63e1-d8c8" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccfd-f40d-4003-c170" includeChildSelections="false"/>
@@ -3351,11 +3726,33 @@ Warp.</description>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="9bfc-ac37-a359-3002" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a49b-0693-677c-2eed" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -4070,11 +4467,33 @@ Warp.</description>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="be67-5f76-72bd-fab2" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57ba-dc7e-f672-338a" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -4082,6 +4501,26 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="df2e-5928-8eb9-29b7" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="df2e-5928-8eb9-29b7">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="1edc-dff4-8135-7298" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="df2e-5928-8eb9-29b7">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="1edc-dff4-8135-7298" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="91e0-5bcf-7ff9-4003" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kommandos Mob" hidden="false" id="b014-847d-5fd0-24c4">
       <categoryLinks>
@@ -4558,7 +4997,25 @@ Warp.</description>
             <condition type="atLeast" value="1" field="selections" scope="self" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="1" field="ed5a-7970-0ec3-dea3">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="ed5a-7970-0ec3-dea3">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="052c-f5df-9a70-e82d" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="ed5a-7970-0ec3-dea3" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Flash Gitz Mob" hidden="false" id="052c-f5df-9a70-e82d">
       <categoryLinks>
@@ -4712,11 +5169,33 @@ Warp.</description>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="54ed-4988-3233-31c2" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e746-bdec-d1cb-853a" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -4870,7 +5349,40 @@ Warp.</description>
             <condition type="atLeast" value="1" field="selections" scope="self" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="1" field="0fef-cf47-b759-ea6e">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="0fef-cf47-b759-ea6e">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="5b87-e632-ca01-f0d7" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="b014-847d-5fd0-24c4" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="0fef-cf47-b759-ea6e" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Skarboyz Mob" hidden="false" id="d49c-1e41-979c-a69b">
       <categoryLinks>
@@ -4923,8 +5435,19 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="d49c-1e41-979c-a69b" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="Infantry (Light, Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Infantry" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="d49c-1e41-979c-a69b" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
                     <modifier type="set" value="Infantry (Line)" field="ddd7-6f5c-a939-b69e">
                       <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="d49c-1e41-979c-a69b" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
@@ -5218,8 +5741,19 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="d49c-1e41-979c-a69b" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="Infantry (Character)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="d49c-1e41-979c-a69b" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Infantry (Character, Light, Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
                     <modifier type="set" value="Infantry (Character, Line)" field="ddd7-6f5c-a939-b69e">
                       <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="d49c-1e41-979c-a69b" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
@@ -5363,11 +5897,33 @@ Warp.</description>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="7c1c-f596-126d-072c" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="253a-a2b7-d064-a72c" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -5379,6 +5935,21 @@ Warp.</description>
         <modifier type="set" value="1" field="4343-f0fd-5a5d-953d">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="4343-f0fd-5a5d-953d">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="5f01-d260-f804-dca7" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5475,6 +6046,16 @@ Warp.</description>
             </infoLink>
             <infoLink name="&apos;Ere We Go!" id="ae9c-ea53-30f6-b319" hidden="false" type="rule" targetId="d474-68f1-fd64-374d"/>
             <infoLink name="Kaboom" id="f488-912c-32f7-ba89" hidden="false" type="rule" targetId="efc0-9201-fcb7-5153"/>
+            <infoLink name="Rampage (X)" id="7d66-c8d1-64aa-7075" hidden="true" type="rule" targetId="3efb-2a2c-2d0b-92fc">
+              <modifiers>
+                <modifier type="set" value="Rampage (D3)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7b1a-a5c3-28bd-f737" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <rules>
             <rule name="Extra Attacks" id="a9c5-bb98-4a56-c89e" hidden="false">
@@ -6158,6 +6739,26 @@ Warp.</description>
       <entryLinks>
         <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="9ca9-5c22-0c86-c0b8" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f2f7-cc60-6ffa-43bc" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="f2f7-cc60-6ffa-43bc">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="1edc-dff4-8135-7298" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="f2f7-cc60-6ffa-43bc">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="1edc-dff4-8135-7298" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="bfa0-46e8-cacc-0133" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Loota Mob" hidden="false" id="5f01-d260-f804-dca7">
       <categoryLinks>
@@ -6201,7 +6802,7 @@ Warp.</description>
               <profiles>
                 <profile name="Loota" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="d167-b756-d00b-fca9">
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
@@ -6217,6 +6818,11 @@ Warp.</description>
                     <modifier type="set" value="4+" field="e593-6b3c-f169-04f0">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="5f01-d260-f804-dca7" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Infantry (Heavy, Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -6252,9 +6858,9 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="5f01-d260-f804-dca7" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" value="Infantry (Character)" field="ddd7-6f5c-a939-b69e">
+                    <modifier type="set" value="Infantry (Heavy, Character, Line)" field="ddd7-6f5c-a939-b69e">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="5f01-d260-f804-dca7" childId="37e2-5894-ba35-4116" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -6439,6 +7045,23 @@ Warp.</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Squiggoth" hidden="true" id="405f-157a-aaf2-0bae" type="selectionEntry" targetId="e9a4-8d1b-ed26-4765">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="14" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="839d-a319-4db1-56ab" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a819-03c7-a1cd-eef8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="96ba-1bbf-b4dc-2dc9" includeChildSelections="false"/>
@@ -6470,6 +7093,22 @@ Warp.</description>
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="4343-f0fd-5a5d-953d"/>
+        <modifier type="set" value="0" field="c6cb-2268-119a-40e2">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d49c-1e41-979c-a69b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -8143,6 +8782,11 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="be63-607b-40a8-5777" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="Infantry (Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </profile>
               </profiles>
@@ -8198,6 +8842,11 @@ Warp.</description>
                     <modifier type="set" value="4+" field="e593-6b3c-f169-04f0">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="be63-607b-40a8-5777" childId="37e2-5894-ba35-4116" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Infantry (Character, Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -8313,6 +8962,31 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="b0c7-54c3-df90-c73a">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="b0c7-54c3-df90-c73a">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="fcb8-ea2c-a9dd-af9c" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b0c7-54c3-df90-c73a" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Warbiker Mob" hidden="false" id="a1a7-6b28-e708-ccdb">
       <categoryLinks>
@@ -8375,6 +9049,13 @@ Warp.</description>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="Cavalry (Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="1edc-dff4-8135-7298" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <entryLinks>
@@ -8411,6 +9092,13 @@ Warp.</description>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="Cavalry (Line, Character)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="1edc-dff4-8135-7298" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <infoLinks>
@@ -8556,6 +9244,13 @@ Warp.</description>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="Cavalry (Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="1edc-dff4-8135-7298" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -8569,6 +9264,13 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1edc-dff4-8135-7298" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Deffkoptas" hidden="false" id="f3fa-b40d-4821-3808">
       <categoryLinks>
@@ -8688,9 +9390,34 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
       </costs>
       <modifiers>
         <modifier type="set" value="1" field="b682-c1e7-0bb6-5403">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="b682-c1e7-0bb6-5403">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="b3af-93d1-e679-a8e6" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="be63-607b-40a8-5777" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -9923,7 +10650,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
     </entryLink>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="OrksWargear" id="9440-deef-5173-5b05" targetId="33d7-0b5a-7a0f-61e0"/>
+    <catalogueLink type="catalogue" name="Orks Library" id="5976-4e25-593a-5fdf" targetId="33d7-0b5a-7a0f-61e0"/>
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Expendable" id="da4c-2476-9673-d160" hidden="false">
@@ -10072,7 +10799,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2e9-c235-a1b2-253d" includeChildSelections="false"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Snakebites" hidden="true" id="121f-5e04-fb9a-7b2a" type="selectionEntry" targetId="839d-a319-4db1-56ab">
+        <entryLink import="true" name="Snakebites" hidden="true" id="121f-5e04-fb9a-7b2a" type="selectionEntry" targetId="839d-a319-4db1-56ab" sortIndex="6">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10080,8 +10807,19 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               </conditions>
             </modifier>
           </modifiers>
+          <comment>TODO Automation + Add Cyboar swap</comment>
+          <rules>
+            <rule name="Snakebites" id="d310-ed94-e1ee-7c0c" hidden="false">
+              <description>Any Snakebites model with the Character Unit Sub-type gains the Monster Hunter special rule.
+
+
+Any Snakebites model with the Infantry or Cavalry Unit types and the &apos;Ere We Go! special rule gains Feel No Pain (5+) against Wounds with the Poisoned (X) special rule.
+
+Any Snakebites model with a Warbike may exchange it for a Cyboar for no additional cost, gaining the Hammer of Wrath (D3) and Rampage (D3) special rules.</description>
+            </rule>
+          </rules>
         </entryLink>
-        <entryLink import="true" name="Deathskulls" hidden="true" id="bfa4-f8b0-9e4e-44b5" type="selectionEntry" targetId="d845-c53c-1147-5896">
+        <entryLink import="true" name="Deathskulls" hidden="true" id="bfa4-f8b0-9e4e-44b5" type="selectionEntry" targetId="d845-c53c-1147-5896" sortIndex="3">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10089,8 +10827,14 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule name="Deathskulls" id="9058-cebf-67c3-3e72" hidden="false">
+              <description>Any Deathskulls model with the Line Unit Sub-type gains the Scavengers special rule and may take lucky tattoos for free.</description>
+            </rule>
+          </rules>
+          <comment>TODO: Add Scavengers to line and add lucky tattoos</comment>
         </entryLink>
-        <entryLink import="true" name="Blood Axes" hidden="true" id="f68b-3466-d3e4-9519" type="selectionEntry" targetId="44c8-f3da-c618-bc2d">
+        <entryLink import="true" name="Blood Axes" hidden="true" id="f68b-3466-d3e4-9519" type="selectionEntry" targetId="44c8-f3da-c618-bc2d" sortIndex="2">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10103,9 +10847,9 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               <description>Any Blood Axes model with the Light Unit Sub-type additionally gains the Skirmish Unit Sub-type.</description>
             </rule>
           </rules>
-          <comment>TODO: Maybe auto add skirmish to light </comment>
+          <comment>TODO: Maybe auto add skirmish to light</comment>
         </entryLink>
-        <entryLink import="true" name="None" hidden="true" id="be00-3557-5d7b-8599" type="selectionEntry" targetId="2024-a28a-360e-aa09">
+        <entryLink import="true" name="None" hidden="true" id="be00-3557-5d7b-8599" type="selectionEntry" targetId="2024-a28a-360e-aa09" sortIndex="7">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10114,7 +10858,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Evil Sunz" hidden="true" id="1e30-4c1a-bfde-20dd" type="selectionEntry" targetId="1edc-dff4-8135-7298">
+        <entryLink import="true" name="Evil Sunz" hidden="true" id="1e30-4c1a-bfde-20dd" type="selectionEntry" targetId="1edc-dff4-8135-7298" sortIndex="4">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10122,8 +10866,18 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule name="Evil Sunz" id="2a10-1123-55bb-1d84" hidden="false">
+              <description>Evil Sunz models with the Cavalry Unit type gain the Sudden Strike (1) special rule. 
+
+In addition, Evil Sunz models with the Infantry Unit type and the ‘Ere We Go! special rule gain the Sudden Strike (1) special rule on any turn in which they Disembark from a Vehicle, provided they do not also have the Slow and Purposeful special rule.
+
+Evil Sunz Vehicles add +1 to their Movement characteristics</description>
+            </rule>
+          </rules>
+          <comment>TODO: Automate Sudden strike + Vehicle movement enhance</comment>
         </entryLink>
-        <entryLink import="true" name="Goffs" hidden="true" id="46c4-140a-c532-54ec" type="selectionEntry" targetId="7b1a-a5c3-28bd-f737">
+        <entryLink import="true" name="Goffs" hidden="true" id="46c4-140a-c532-54ec" type="selectionEntry" targetId="7b1a-a5c3-28bd-f737" sortIndex="5">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10131,8 +10885,14 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               </conditions>
             </modifier>
           </modifiers>
+          <comment>TODO: Automate Adding Prefered enemy characters</comment>
+          <rules>
+            <rule name="Goffs" id="4b68-3560-0c4d-a674" hidden="false">
+              <description>Goffs models with the Character Unit Sub-type gain the Preferred Enemy (Characters) special rule when fighting in a challenge, and must always issue and accept challenges.</description>
+            </rule>
+          </rules>
         </entryLink>
-        <entryLink import="true" name="Bad Moons" hidden="true" id="95e2-4c2e-2a70-5d52" type="selectionEntry" targetId="8372-da27-3575-d653">
+        <entryLink import="true" name="Bad Moons" hidden="true" id="95e2-4c2e-2a70-5d52" type="selectionEntry" targetId="8372-da27-3575-d653" sortIndex="1">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -10145,7 +10905,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
               <description>Any Assault weapon wielded by a Bad Moons model with the &apos;Ere We Go! special rule gains the More Dakka (1) special rule.</description>
             </rule>
           </rules>
-          <comment>TODO: Maybe auto add More Dakka to assault weapons</comment>
+          <comment>TODO: auto add More Dakka to assault weapons</comment>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
