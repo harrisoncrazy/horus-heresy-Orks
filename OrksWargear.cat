@@ -1883,6 +1883,26 @@ D6    Result
         <infoLink name="Zzap" id="48ab-0dde-47e7-3862" hidden="false" type="rule" targetId="7877-ba26-5d1d-3814"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Supa Shoota" hidden="false" id="e187-747d-2231-7f91">
+      <profiles>
+        <profile name="Twin-linked Supa Shoota" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="cced-d31a-392b-9bb6">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Concussive (1), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Concussive (X)" id="6bd7-6d86-53c4-5be1" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826">
+          <modifiers>
+            <modifier type="set" value="Concussive (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="e8ce-c83a-4892-5236" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Shoota (Primary)" hidden="false" id="baba-c4ab-5660-1f9d" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
