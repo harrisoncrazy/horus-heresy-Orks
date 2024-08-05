@@ -6,7 +6,8 @@ A data repo cloned from https://github.com/BSData/horus-heresy
 Adding the Fan rules made by https://www.alwaysstrikesfirst.com/
 https://xenos-orks.tumblr.com/
 
-Liber Xenos: Orks
+[Liber Xenos: Orks](https://www.dropbox.com/scl/fi/44w9hfgcml2oxvlxydhtp/Age_of_Darkness_Orks.pdf?rlkey=tl0mjborrybs7std1tk9zl6q0&e=1&dl=0)
+
 
 Grunt work done by HarrisonCrazy. 
 
