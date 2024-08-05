@@ -10824,10 +10824,15 @@ Be aware that we are actively trying to find a solution to this, but it is less 
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Orks" hidden="false" id="4424-55fa-e3fa-068c">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1cf-a2ef-52ed-e1a3" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e1cf-a2ef-52ed-e1a3" includeChildSelections="false"/>
       </constraints>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="0883-1e65-fd0b-e3c5" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="e1cf-a2ef-52ed-e1a3">
           <conditions>
             <condition type="equalTo" value="1" field="selections" scope="force" childId="0883-1e65-fd0b-e3c5" shared="true"/>
           </conditions>

@@ -2039,5 +2039,18 @@ For example, if you rolled a 3 for an Unstable Field shot, the shot would be re
     <rule name="Throttle (X)" id="40e7-d444-354e-2ef7" hidden="false">
       <description>When fighting in a challenge, a model with this special rule or attacking with a weapon with this special rule reduces the Attacks Characteristic of their opponent by the number listed in brackets associated with the specific rule (to a minimum of 1).</description>
     </rule>
+    <rule name="Mekaniak Kults" id="6a96-12c3-9f7c-f8bf" hidden="false">
+      <description>A detachment that includes one or more Big Meks or Mega Big Meks may choose a single Mekaniak Kult to apply to the detachment, chosen from the following:
+
+
+• Kult of Speed
+• Great Dread Mob
+• Tellyporta Assault
+
+
+
+A Big Mek or Mega Big Mek does not need to be the Warlord to choose a Mekaniak
+Kult.</description>
+    </rule>
   </sharedRules>
 </catalogue>

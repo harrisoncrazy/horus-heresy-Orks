@@ -14,6 +14,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e14-59a1-10da-dfc1" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="2eae-0fc1-35c0-0c12" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="dac3-e742-dec0-c2b2" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -344,6 +345,53 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d519-2164-7ac8-636f" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Battlewagon" hidden="true" id="44fc-cace-2f43-744d" type="selectionEntry" targetId="2e1f-1e56-2939-2083">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="007e-b325-6b08-82e4" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="greaterThan" value="12" field="selections" scope="parent" childId="model" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="9e31-d42e-5898-6ecc" shared="true"/>
+                          </conditions>
+                          <comment>TODO: Fix this to work - checking for 12 transport cap. if Killkannon</comment>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="greaterThan" value="20" field="selections" scope="parent" childId="model" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="ccdd-5c9a-6077-fe54" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b148-d1dd-1387-d109" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -359,6 +407,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="134f-e77e-5fac-0206" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="ddd1-09c8-ec0e-5c80" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="810a-5e68-a96c-a883" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -620,12 +669,69 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d05d-7294-ba1a-12d1" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Battlewagon" hidden="true" id="e71a-4991-ea63-3f85" type="selectionEntry" targetId="2e1f-1e56-2939-2083">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa5f-605e-3e1d-06c8" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="greaterThan" value="12" field="selections" scope="parent" childId="model" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="9e31-d42e-5898-6ecc" shared="true"/>
+                          </conditions>
+                          <comment>TODO: Fix this to work - checking for 12 transport cap. if Killkannon</comment>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="greaterThan" value="20" field="selections" scope="parent" childId="model" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="ac0f-c59c-8893-7efe" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e8b-97e9-f904-bc66" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="1" field="d54f-f4b4-61f2-f400">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="d54f-f4b4-61f2-f400" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tankbusta Mob" hidden="false" id="5b87-e632-ca01-f0d7">
       <categoryLinks>
@@ -638,6 +744,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fe2-4d7d-41ad-0d84" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="3b3c-a9c1-dbd8-4856" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="730c-323f-2816-27e1" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -915,6 +1022,53 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c84-5fd8-719c-b5b6" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Battlewagon" hidden="true" id="4e25-a90e-b44a-8339" type="selectionEntry" targetId="2e1f-1e56-2939-2083">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f858-d346-0cb8-1330" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="greaterThan" value="12" field="selections" scope="parent" childId="model" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="9e31-d42e-5898-6ecc" shared="true"/>
+                          </conditions>
+                          <comment>TODO: Fix this to work - checking for 12 transport cap. if Killkannon</comment>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="greaterThan" value="20" field="selections" scope="parent" childId="model" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="2e32-0861-ec50-57e8" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9edb-b49f-9805-c23b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1085,8 +1239,11 @@
           </repeats>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="11d7-4e85-cdc9-0171" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Killa Kan Mob" hidden="false" id="ade3-e0d5-93dc-307a">
+    <selectionEntry type="unit" import="true" name="Killa Kan Mob" hidden="false" id="ade3-e0d5-93dc-307a">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
@@ -1209,6 +1366,9 @@
         <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="9a08-e34b-2d98-506c" primary="false" name="Infantry Unit Type"/>
         <categoryLink targetId="e929-a5c3-451c-6f19" id="9e7c-7a05-6993-eae7" primary="false" name="Mechanised Unit Sub-type"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="e3d3-6e58-b815-8747" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Trukk" hidden="false" id="0b36-225f-f55a-a090">
       <categoryLinks>
@@ -1300,7 +1460,7 @@
         <categoryLink targetId="4f07-3d45-4f28-a0c6" id="6d78-5b9b-d05d-1500" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Exchange Choppa" id="fc44-dab4-2d2e-867a" hidden="false" defaultSelectionEntryId="a661-a92a-bc94-e50c">
+        <selectionEntryGroup name="Exchange Choppa" id="fc44-dab4-2d2e-867a" hidden="false" defaultSelectionEntryId="a661-a92a-bc94-e50c" sortIndex="5">
           <entryLinks>
             <entryLink import="true" name="Choppa" hidden="false" id="a661-a92a-bc94-e50c" type="selectionEntry" targetId="3d77-c475-0975-04af"/>
             <entryLink import="true" name="Chainsword" hidden="false" id="0d95-11db-3276-c6eb" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03"/>
@@ -1335,7 +1495,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4dd-0d20-0731-6340" includeChildSelections="false" percentValue="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Exchange Slugga" id="d504-b2ad-8da9-b549" hidden="false" defaultSelectionEntryId="fed5-593f-1dad-f586">
+        <selectionEntryGroup name="Exchange Slugga" id="d504-b2ad-8da9-b549" hidden="false" defaultSelectionEntryId="fed5-593f-1dad-f586" sortIndex="6">
           <entryLinks>
             <entryLink import="true" name="Big Choppa" hidden="false" id="c4e8-3f88-86d0-8d8d" type="selectionEntry" targetId="22ff-b1e7-2d19-b194">
               <costs>
@@ -1364,13 +1524,25 @@
               </costs>
             </entryLink>
             <entryLink import="true" name="Slugga" hidden="false" id="fed5-593f-1dad-f586" type="selectionEntry" targetId="fade-c99d-f650-9644"/>
+            <entryLink import="true" name="Snazzgun" hidden="true" id="7368-bde3-58c6-c69c" type="selectionEntry" targetId="06d0-63cd-59aa-f2af">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="585c-0636-9e1d-9af5" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7701-1009-9279-b8a3" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Optional Ranged Weapon" id="efda-3c8c-fc10-2543" hidden="false" defaultSelectionEntryId="d013-ed48-ff52-d802">
+        <selectionEntryGroup name="Optional Ranged Weapon" id="efda-3c8c-fc10-2543" hidden="false" defaultSelectionEntryId="d013-ed48-ff52-d802" sortIndex="7">
           <entryLinks>
             <entryLink import="true" name="Kombi-weapon with Rokkit Launcha" hidden="false" id="9791-a7d7-0cf9-71a8" type="selectionEntry" targetId="e7cb-aea7-eb56-4c84">
               <costs>
@@ -1410,7 +1582,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84c9-bb5f-1841-d1ed" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Wargear Selection" id="fc93-b6d3-6065-71a9" hidden="false">
+        <selectionEntryGroup name="Wargear Selection" id="fc93-b6d3-6065-71a9" hidden="false" sortIndex="8">
           <entryLinks>
             <entryLink import="true" name="Ammo Runt" hidden="false" id="66da-975c-5491-d02a" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
               <costs>
@@ -1468,6 +1640,21 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Ork Clan" id="4ed5-a380-b0f3-9947" hidden="false" sortIndex="11" defaultSelectionEntryId="c048-fb97-6220-73e9">
+          <entryLinks>
+            <entryLink import="true" name="Bad Moons" hidden="false" id="ef1f-e2a0-e4be-e014" type="selectionEntry" targetId="8372-da27-3575-d653" sortIndex="1"/>
+            <entryLink import="true" name="Blood Axes" hidden="false" id="c01f-5591-16de-6cf8" type="selectionEntry" targetId="44c8-f3da-c618-bc2d" sortIndex="2"/>
+            <entryLink import="true" name="Deathskulls" hidden="false" id="3a0f-c34e-28d5-578f" type="selectionEntry" targetId="d845-c53c-1147-5896" sortIndex="3"/>
+            <entryLink import="true" name="Evil Sunz" hidden="false" id="ec80-eb86-102d-5394" type="selectionEntry" targetId="1edc-dff4-8135-7298" sortIndex="4"/>
+            <entryLink import="true" name="Goffs" hidden="false" id="2070-92ed-df81-c6b9" type="selectionEntry" targetId="7b1a-a5c3-28bd-f737" sortIndex="5"/>
+            <entryLink import="true" name="None" hidden="false" id="c048-fb97-6220-73e9" type="selectionEntry" targetId="2024-a28a-360e-aa09" sortIndex="7"/>
+            <entryLink import="true" name="Snakebites" hidden="false" id="d9dc-9040-746a-8d26" type="selectionEntry" targetId="839d-a319-4db1-56ab" sortIndex="6"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="adac-b417-2bcc-b1f8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21bf-4303-3187-1a87" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
         <profile name="Warboss" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="c043-07c3-3581-c6ba">
@@ -1504,6 +1691,11 @@
             <modifier type="set" value="10" field="e8a6-1da9-d384-8727">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="9de4-eef6-5f05-2585" childId="cecc-1552-dc0b-8f42" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Infantry (Character, Warboss, Skirmish)" field="ddd7-6f5c-a939-b69e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="4d2f-db1a-40ef-2c53" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1597,7 +1789,7 @@
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Warbike" hidden="false" id="62e0-d2c8-1511-041d" type="selectionEntry" targetId="bc5b-03c2-1b40-8cb6">
+        <entryLink import="true" name="Warbike" hidden="false" id="62e0-d2c8-1511-041d" type="selectionEntry" targetId="bc5b-03c2-1b40-8cb6" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96c2-dd30-5ae1-8a4d" includeChildSelections="false"/>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="94bb-dddc-c2fa-6958" includeChildSelections="false"/>
@@ -1606,7 +1798,7 @@
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="5440-8247-498f-f6c8" type="selectionEntry" targetId="0176-56a3-d590-b103">
+        <entryLink import="true" name="Warlord" hidden="false" id="5440-8247-498f-f6c8" type="selectionEntry" targetId="0176-56a3-d590-b103" sortIndex="12">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9c03-d5c2-65b4-72da" includeChildSelections="false"/>
           </constraints>
@@ -1618,20 +1810,20 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord Traits" hidden="false" id="a5eb-d992-ef8d-741d" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed"/>
-        <entryLink import="true" name="Deflektor" hidden="false" id="3c55-691e-91b6-619a" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74">
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="a5eb-d992-ef8d-741d" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed" sortIndex="13"/>
+        <entryLink import="true" name="Deflektor" hidden="false" id="3c55-691e-91b6-619a" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74" sortIndex="10">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="213f-6bc2-3e0d-e3fc" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02e2-67ad-260c-3e1c" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Stikkbombs" hidden="false" id="dfaa-c120-f766-84de" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5">
+        <entryLink import="true" name="Stikkbombs" hidden="false" id="dfaa-c120-f766-84de" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5" sortIndex="9">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1863-20f3-185a-db2a" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e4c-309b-020c-1444" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="&apos;Eavy Armour" hidden="false" id="013f-19f6-dd8a-da9c" type="selectionEntry" targetId="37e2-5894-ba35-4116">
+        <entryLink import="true" name="&apos;Eavy Armour" hidden="false" id="013f-19f6-dd8a-da9c" type="selectionEntry" targetId="37e2-5894-ba35-4116" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db1c-921d-55d5-ab11" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3582-f43b-3768-5071" includeChildSelections="false"/>
@@ -1639,7 +1831,7 @@
         </entryLink>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Arch Overlord" hidden="false" id="cecc-1552-dc0b-8f42">
+        <selectionEntry type="upgrade" import="true" name="Arch Overlord" hidden="false" id="cecc-1552-dc0b-8f42" sortIndex="1">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
@@ -1651,6 +1843,32 @@
             <modifier type="set" value="0" field="e2f0-e6cc-ae99-6ba7">
               <conditions>
                 <condition type="greaterThan" value="1" field="selections" scope="roster" childId="cecc-1552-dc0b-8f42" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blood Axes Upgrade" hidden="true" id="4d2f-db1a-40ef-2c53" sortIndex="2">
+          <rules>
+            <rule name="Blood Axes Upgrade" id="4245-0c80-a334-83d9" hidden="false">
+              <description>A Blood Axes Warboss may gain the Move Through Cover and Scout special rules and the Skirmish Unit Sub-type for 15 points.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ca6f-a20a-01a3-4d06" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d68-0813-276d-7add" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Move Through Cover" id="cfb3-664f-7ca9-261a" hidden="false" type="rule" targetId="2b6f-bfec-759e-1746"/>
+            <infoLink name="Scout" id="0931-1088-ca2a-8689" hidden="false" type="rule" targetId="aacf-9a7e-982d-b793"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="add" value="59a4-7b61-600a-c457" field="category"/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1684,7 +1902,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1f0e-f682-700b-40d6" primary="false" name="Independent Character"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Ranged Weapon" id="649b-06b0-0dd3-ce36" hidden="false" defaultSelectionEntryId="38bb-709f-14dd-a45e">
+        <selectionEntryGroup name="Ranged Weapon" id="649b-06b0-0dd3-ce36" hidden="false" defaultSelectionEntryId="38bb-709f-14dd-a45e" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Twin-linked Shoota" hidden="false" id="38bb-709f-14dd-a45e" type="selectionEntry" targetId="1ba0-e4fe-6daf-0b92"/>
             <entryLink import="true" name="Kombi-weapon with Skorcha" hidden="false" id="b2ab-47ae-f460-b5be" type="selectionEntry" targetId="2e28-26b7-b137-dbc1">
@@ -1697,13 +1915,25 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Snazzgun" hidden="true" id="b7f5-5fa9-f1f8-735b" type="selectionEntry" targetId="06d0-63cd-59aa-f2af">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5c3-cb63-0e72-3d4e" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be85-57ec-a535-c2af" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Wargear Selection" id="5bea-50d1-584c-9c66" hidden="false">
+        <selectionEntryGroup name="Wargear Selection" id="5bea-50d1-584c-9c66" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Ammo Runt" hidden="false" id="237e-c127-ace4-b134" type="selectionEntry" targetId="0e8f-cdf0-a592-165e">
               <costs>
@@ -1742,6 +1972,21 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Ork Clan" id="2f7e-cf73-1424-4dca" hidden="false" defaultSelectionEntryId="c048-fb97-6220-73e9" sortIndex="7">
+          <entryLinks>
+            <entryLink import="true" name="Bad Moons" hidden="false" id="e42e-4997-c07a-3372" type="selectionEntry" targetId="8372-da27-3575-d653" sortIndex="1"/>
+            <entryLink import="true" name="Blood Axes" hidden="false" id="8da3-2f83-546c-ec26" type="selectionEntry" targetId="44c8-f3da-c618-bc2d" sortIndex="2"/>
+            <entryLink import="true" name="Deathskulls" hidden="false" id="58f6-195a-37b8-ba92" type="selectionEntry" targetId="d845-c53c-1147-5896" sortIndex="3"/>
+            <entryLink import="true" name="Evil Sunz" hidden="false" id="4316-ccd4-0412-3c5c" type="selectionEntry" targetId="1edc-dff4-8135-7298" sortIndex="4"/>
+            <entryLink import="true" name="Goffs" hidden="false" id="9d6b-f755-8298-8f45" type="selectionEntry" targetId="7b1a-a5c3-28bd-f737" sortIndex="5"/>
+            <entryLink import="true" name="None" hidden="false" id="5022-a3df-a4d8-99a1" type="selectionEntry" targetId="2024-a28a-360e-aa09" sortIndex="7"/>
+            <entryLink import="true" name="Snakebites" hidden="false" id="11a6-ff6c-50e0-b42a" type="selectionEntry" targetId="839d-a319-4db1-56ab" sortIndex="6"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d743-5035-a64c-5840" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77c4-b3d2-1721-684c" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -1867,8 +2112,8 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Warlord Traits" hidden="false" id="e9dd-5a05-4dbf-3cf6" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b66b-0422-04fe-7e82" type="selectionEntry" targetId="0176-56a3-d590-b103">
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="e9dd-5a05-4dbf-3cf6" type="selectionEntryGroup" targetId="2b6e-6344-294a-19ed" sortIndex="9"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="b66b-0422-04fe-7e82" type="selectionEntry" targetId="0176-56a3-d590-b103" sortIndex="8">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d7f3-7d07-7bec-6239" includeChildSelections="false"/>
           </constraints>
@@ -1880,19 +2125,19 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Deflektor" hidden="false" id="e87e-0bd7-3a32-09ce" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74">
+        <entryLink import="true" name="Deflektor" hidden="false" id="e87e-0bd7-3a32-09ce" type="selectionEntry" targetId="ecac-bc1a-ee75-cb74" sortIndex="6">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17e9-f155-c3af-f672" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddf7-621f-f92f-b7ed" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Mega Armour" hidden="false" id="75ae-3e88-a491-81ff" type="selectionEntry" targetId="d71f-3901-d77f-2d41">
+        <entryLink import="true" name="Mega Armour" hidden="false" id="75ae-3e88-a491-81ff" type="selectionEntry" targetId="d71f-3901-d77f-2d41" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f81a-2513-af6b-41a9" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a5c-a5ff-8340-194f" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Stikkbombs" hidden="false" id="a4a4-73c5-1544-f682" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5">
+        <entryLink import="true" name="Stikkbombs" hidden="false" id="a4a4-73c5-1544-f682" type="selectionEntry" targetId="f0af-b0c7-99cc-b4b5" sortIndex="5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e7c-9d86-63e1-d8c8" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccfd-f40d-4003-c170" includeChildSelections="false"/>
@@ -1900,7 +2145,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
         </entryLink>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Mega Arch Overlord" hidden="false" id="8827-7852-277a-84c7">
+        <selectionEntry type="upgrade" import="true" name="Mega Arch Overlord" hidden="false" id="8827-7852-277a-84c7" sortIndex="1">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
@@ -2230,6 +2475,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Mekaniak Kults" id="49e3-1c2f-6371-3787" hidden="false" type="rule" targetId="6a96-12c3-9f7c-f8bf"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warbike" hidden="false" id="fa14-dcf0-037e-4eeb" type="selectionEntry" targetId="bc5b-03c2-1b40-8cb6">
@@ -2271,6 +2517,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf76-2beb-3689-19c6" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="f5c5-50f4-e4b6-fb06" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Mega Big Mek" hidden="false" id="9b76-eb16-cdd8-2d6d">
@@ -2472,6 +2719,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Mekaniak Kults" id="ef1d-93e3-0abd-add0" hidden="false" type="rule" targetId="6a96-12c3-9f7c-f8bf"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="848b-3b9c-5e59-7402" type="selectionEntry" targetId="0176-56a3-d590-b103">
@@ -2504,6 +2752,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a7e-a974-93fe-d033" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="6592-3cea-1a46-b535" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Weirdboy" hidden="false" id="61a0-dddb-8594-35a3">
@@ -2571,6 +2820,7 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f0d-208e-89ff-5803" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="4307-acea-f43e-0a75" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Battle-Hardened (X)" id="1850-e134-1e9b-63d1" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
@@ -2626,6 +2876,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce47-9153-fc62-001b" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="738d-1ad7-50ca-e443" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="cd4e-5cf8-9cfe-6586" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -3089,6 +3340,23 @@ Warp.</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="bd51-9a31-a74c-3b8e" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69fa-6c32-d1c1-cd7d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3109,6 +3377,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6940-8eb6-8ec4-5ac5" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="7b64-b63b-1774-2459" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="de35-d989-36e9-3ee7" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -3518,6 +3787,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2af1-d036-674e-ed30" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="58a9-49bb-302d-00d8" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="6e3c-d0dc-a8bd-7e6f" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -3789,6 +4059,23 @@ Warp.</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="d1d9-12dd-559a-b3d2" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18e0-1464-ae5f-3edf" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3809,6 +4096,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6cb-b24a-91e7-c817" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="c5a0-6107-301d-398e" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="a9da-882d-f6e5-4c88" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -3849,9 +4137,9 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="b014-847d-5fd0-24c4" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" value="Infantry (Line)" field="ddd7-6f5c-a939-b69e">
+                    <modifier type="set" value="Infantry (Light, Skirmish, Line)" field="ddd7-6f5c-a939-b69e">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="b014-847d-5fd0-24c4" childId="37e2-5894-ba35-4116" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -4077,9 +4365,9 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="b014-847d-5fd0-24c4" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" value="Infantry (Line)" field="ddd7-6f5c-a939-b69e">
+                    <modifier type="set" value="Infantry (Light, Skirmish, Line)" field="ddd7-6f5c-a939-b69e">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="b014-847d-5fd0-24c4" childId="37e2-5894-ba35-4116" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -4115,9 +4403,9 @@ Warp.</description>
                         <condition type="equalTo" value="1" field="selections" scope="b014-847d-5fd0-24c4" childId="37e2-5894-ba35-4116" shared="true"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" value="Infantry (Character, Line)" field="ddd7-6f5c-a939-b69e">
+                    <modifier type="set" value="Infantry (Character, Light, Skirmish, Line)" field="ddd7-6f5c-a939-b69e">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="b014-847d-5fd0-24c4" childId="37e2-5894-ba35-4116" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -4264,6 +4552,13 @@ Warp.</description>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Flash Gitz Mob" hidden="false" id="052c-f5df-9a70-e82d">
       <categoryLinks>
@@ -4307,6 +4602,13 @@ Warp.</description>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="Infantry (Heavy, Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <entryLinks>
@@ -4399,6 +4701,23 @@ Warp.</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="26a5-0a55-4f1f-6484" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2291-d0ef-0c59-381a" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4414,7 +4733,7 @@ Warp.</description>
           <profiles>
             <profile name="Kaptin" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="3ffc-f986-88ca-e488">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Light)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Heavy)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
@@ -4426,6 +4745,13 @@ Warp.</description>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="Infantry (Character, Heavy, Line)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <infoLinks>
@@ -4535,6 +4861,16 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="5ecb-44a1-cda6-fa76" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Skarboyz Mob" hidden="false" id="d49c-1e41-979c-a69b">
       <categoryLinks>
@@ -4548,6 +4884,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9048-d098-4e33-1c58" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="622d-4f37-46ea-59b0" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="8f00-203d-afa8-a50d" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -4968,9 +5305,85 @@ Warp.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="9def-37ef-a305-0fc9" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Trukk" hidden="false" id="0a71-d4ee-7b61-3231" type="selectionEntry" targetId="0b36-225f-f55a-a090">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a95f-ede5-3e88-43c0" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Battlewagon" hidden="true" id="3ada-074d-816a-d3d3" type="selectionEntry" targetId="2e1f-1e56-2939-2083">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecb9-040b-4ad7-4ad5" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="greaterThan" value="12" field="selections" scope="parent" childId="model" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="9e31-d42e-5898-6ecc" shared="true"/>
+                          </conditions>
+                          <comment>TODO: Fix this to work - checking for 12 transport cap. if Killkannon</comment>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="greaterThan" value="20" field="selections" scope="parent" childId="model" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8372-da27-3575-d653" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Looted Wagon" hidden="true" id="cd2f-f87a-63a0-3dc5" type="selectionEntry" targetId="162f-0223-9179-ca45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcea-8c25-7b04-89dc" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="4343-f0fd-5a5d-953d" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="4343-f0fd-5a5d-953d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Deff Dread Mob" hidden="false" id="3bdb-9b74-cd08-87ec">
+    <selectionEntry type="unit" import="true" name="Deff Dread Mob" hidden="false" id="3bdb-9b74-cd08-87ec">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
@@ -5074,6 +5487,9 @@ Warp.</description>
         <categoryLink targetId="4280-4963-02b5-e31d" id="7bcd-0f42-9f61-9296" primary="false" name="Dreadnought Unit Type"/>
       </categoryLinks>
       <comment>TODO: Add increased attacks for to profile for weps</comment>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="9f54-a28f-bb16-6863" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Grot Tank Mob" hidden="false" id="c28d-d50b-6dd7-4499">
       <categoryLinks>
@@ -5082,7 +5498,7 @@ Warp.</description>
       <selectionEntryGroups>
         <selectionEntryGroup name="Grot Tanks" id="48c4-769c-50e6-3127" hidden="false" defaultSelectionEntryId="8a3d-8863-04d0-380b">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Grot Tank" hidden="false" id="8a3d-8863-04d0-380b">
+            <selectionEntry type="model" import="true" name="Grot Tank" hidden="false" id="8a3d-8863-04d0-380b">
               <profiles>
                 <profile name="Grot Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="a6d8-0bbf-ab90-229a">
                   <characteristics>
@@ -5177,7 +5593,7 @@ Warp.</description>
                 </entryLink>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Kommanda" hidden="false" id="84f1-b52b-644b-8108">
+            <selectionEntry type="model" import="true" name="Kommanda" hidden="false" id="84f1-b52b-644b-8108">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe56-be83-4100-c90c" includeChildSelections="false"/>
               </constraints>
@@ -5318,8 +5734,11 @@ Warp.</description>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="3d0a-17ea-7827-478c" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Battlewagon" hidden="false" id="2e1f-1e56-2939-2083">
+    <selectionEntry type="model" import="true" name="Battlewagon" hidden="false" id="2e1f-1e56-2939-2083">
       <profiles>
         <profile name="Battlewagon" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="fa47-d8a9-f9fa-05df">
           <characteristics>
@@ -5336,17 +5755,17 @@ Warp.</description>
           <modifiers>
             <modifier type="set" value="12" field="0c90-79e2-f768-e547">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="2e1f-1e56-2939-2083" childId="9e31-d42e-5898-6ecc" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e31-d42e-5898-6ecc" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="A Battlewagon with ‘ard case has three Access Points: one on each side of the hull and one at the rear." field="e217-1b1e-9494-3e3e">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="2e1f-1e56-2939-2083" childId="801f-1cc3-1508-5f97" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="801f-1cc3-1508-5f97" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="Vehicle (Transport)" field="e555-4aed-dfcc-c0b4">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="2e1f-1e56-2939-2083" childId="801f-1cc3-1508-5f97" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="801f-1cc3-1508-5f97" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5520,9 +5939,15 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="110"/>
       </costs>
-      <comment>TODO: Remove Open topped category for &apos;ard case</comment>
+      <modifiers>
+        <modifier type="remove" value="625a-e287-1d8b-79d6" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="801f-1cc3-1508-5f97" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Battlewagon Squadron" hidden="false" id="3f51-b109-bf03-41ea">
+    <selectionEntry type="unit" import="true" name="Battlewagon Squadron" hidden="false" id="3f51-b109-bf03-41ea">
       <entryLinks>
         <entryLink import="true" name="Battlewagon" hidden="false" id="19c7-4317-02dd-c7fa" type="selectionEntry" targetId="2e1f-1e56-2939-2083">
           <constraints>
@@ -5530,6 +5955,7 @@ Warp.</description>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="cc8c-bc40-6389-7363" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="9f45-7877-954a-7530" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="e2b6-b770-784c-9e95" id="e9ef-c501-9330-3e27" primary="false" name="Vehicle:"/>
@@ -5729,6 +6155,9 @@ Warp.</description>
           </selectionEntries>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="9ca9-5c22-0c86-c0b8" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Loota Mob" hidden="false" id="5f01-d260-f804-dca7">
       <categoryLinks>
@@ -5742,6 +6171,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a95b-b688-9830-05b2" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="a87d-c2f9-16ce-68a2" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="0318-240a-32b2-30ce" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -6035,6 +6465,16 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="1" field="c6cb-2268-119a-40e2">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="c6cb-2268-119a-40e2" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Looted Wagon" hidden="false" id="162f-0223-9179-ca45">
       <categoryLinks>
@@ -6361,6 +6801,9 @@ Warp.</description>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="37"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="5e3d-9f86-8a09-56f0" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Looted Wagon Squadron" hidden="false" id="ce80-ddae-512e-481b">
       <categoryLinks>
@@ -6375,9 +6818,10 @@ Warp.</description>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c8a8-a0f4-92bc-3f31" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="aef8-6767-4f27-cf8a" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Big Trakk" hidden="false" id="2db5-a5bd-bffd-104c">
+    <selectionEntry type="model" import="true" name="Big Trakk" hidden="false" id="2db5-a5bd-bffd-104c">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
       </costs>
@@ -6497,6 +6941,7 @@ Warp.</description>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="71d5-2c0e-eb26-3666" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="ecce-6b6e-330e-7e60" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <rules>
         <rule name="Transport Removal" id="a283-e060-e5e7-6774" hidden="false">
@@ -6505,7 +6950,7 @@ Warp.</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grot Mega-Tank" hidden="false" id="d6fd-68e4-8dd6-e738">
+    <selectionEntry type="model" import="true" name="Grot Mega-Tank" hidden="false" id="d6fd-68e4-8dd6-e738">
       <categoryLinks>
         <categoryLink targetId="e2b6-b770-784c-9e95" id="6059-8879-d393-e507" primary="false" name="Vehicle:"/>
       </categoryLinks>
@@ -6554,6 +6999,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="690b-8a3f-6dfb-348a" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="6452-5604-7263-214d" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Turret Mounts" id="8572-b2f2-d8e6-8029" hidden="false" defaultSelectionEntryId="df35-3649-bf9c-26f9">
@@ -6744,6 +7190,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b213-1d7a-e2d0-6991" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="4bb1-911f-d525-9b78" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <rules>
         <rule name="Transport" id="7cd2-5233-3980-fa1f" hidden="false">
@@ -6841,6 +7288,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b30a-368d-3563-0b79" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="716c-c251-d4d7-5616" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <rules>
         <rule name="Transport" id="bdc7-8447-8cad-671d" hidden="false">
@@ -6917,6 +7365,7 @@ Warp.</description>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d014-053e-7b3c-fc9f" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="ea03-f8aa-f95e-be07" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Squiggoth" hidden="false" id="e9a4-8d1b-ed26-4765">
@@ -7103,6 +7552,9 @@ Warp.</description>
         <categoryLink targetId="625a-e287-1d8b-79d6" id="660b-fff3-fb8c-22bb" primary="false" name="Open-topped"/>
         <categoryLink targetId="b593-3592-f2c5-eae3" id="47e7-9748-b427-ffaa" primary="false" name="Monstrous Transport"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="0ecf-4c02-a4ee-7e74" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Stompa" hidden="false" id="39e0-abae-bc72-4eff">
       <profiles>
@@ -7200,6 +7652,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c564-d169-9f69-8488" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="87c1-c25f-8210-4a2b" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear Options" id="7de5-4047-9d8a-325a" hidden="false">
@@ -7307,6 +7760,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88b1-d723-0c9d-4fe7" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="0a63-e5d3-feb0-be3e" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Right Mount" id="f157-ae4f-25bd-b0bf" hidden="false">
@@ -7406,6 +7860,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dd2-d6da-3035-8844" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="c3ff-67bf-3f7c-32ab" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Right Mount" id="3313-c3be-0aa8-2554" hidden="false">
@@ -7474,7 +7929,7 @@ Warp.</description>
         <categoryLink name="Vehicle:" hidden="false" id="754e-f982-5d48-6364" targetId="e2b6-b770-784c-9e95" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gargantuan Squiggoth" hidden="false" id="f284-825f-d9bf-7fcd">
+    <selectionEntry type="model" import="true" name="Gargantuan Squiggoth" hidden="false" id="f284-825f-d9bf-7fcd">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="550"/>
       </costs>
@@ -7628,6 +8083,9 @@ Warp.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="3360-6899-0095-b6d4" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stormboyz Mob" hidden="false" id="be63-607b-40a8-5777">
       <categoryLinks>
@@ -7646,6 +8104,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c376-41df-a4de-cc01" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="8b21-6ec5-1d2d-d88e" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="58a2-b1f8-3938-936d" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -7872,6 +8331,7 @@ Warp.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e5c-3b7c-8134-1c1b" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="c886-e37f-4de5-53a8" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Rule" id="7c76-88c9-ff19-7b4b" hidden="false" type="rule" targetId="c29d-3ddf-cda8-4acb"/>
@@ -8117,7 +8577,7 @@ Warp.</description>
         <categoryLink targetId="59a4-7b61-600a-c457" id="7b83-35bb-cd3d-1f22" primary="false" name="Skirmish Sub-type"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Deffkopta" hidden="false" id="90cf-5c6d-9e94-7f3a">
+        <selectionEntry type="model" import="true" name="Deffkopta" hidden="false" id="90cf-5c6d-9e94-7f3a">
           <entryLinks>
             <entryLink import="true" name="Slugga" hidden="false" id="6eef-a71b-408c-3cae" type="selectionEntry" targetId="fade-c99d-f650-9644">
               <constraints>
@@ -8143,6 +8603,7 @@ Warp.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e21-3a58-f5ee-3d32" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="cb6d-5e5f-7f50-a4c7" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Bombs Away!" id="eb2b-b774-610c-93b1" hidden="false" type="rule" targetId="14d7-d2af-9868-9bda"/>
@@ -8225,6 +8686,16 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="1" field="b682-c1e7-0bb6-5403">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b682-c1e7-0bb6-5403" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Dakkajet" hidden="false" id="cd16-0b8d-f844-c0ca">
       <categoryLinks>
@@ -8262,6 +8733,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9e26-c56e-6f98-f4d7" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="edfe-823b-e807-a32d" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="d76e-b754-4954-c8c2" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
@@ -8345,6 +8817,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
           </costs>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="f572-c04a-2b18-83d5" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="9d3a-2d9e-6e96-23f8" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
@@ -8413,6 +8886,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a4bf-547a-bdb0-7eb2" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="47cc-4b59-282e-7a58" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="8b01-7634-904d-4a74" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
@@ -8487,6 +8961,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a3b-6c29-3894-56b9" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="429c-9525-60ac-9653" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="c1aa-37fc-d5b5-2371" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
@@ -8541,7 +9016,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
       <selectionEntryGroups>
         <selectionEntryGroup name="Warbuggy/Wartrakk" id="d6cb-82ea-e57b-8193" hidden="false" defaultSelectionEntryId="dd01-9bd9-a95e-3f0f">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Warbuggy" hidden="false" id="dd01-9bd9-a95e-3f0f">
+            <selectionEntry type="model" import="true" name="Warbuggy" hidden="false" id="dd01-9bd9-a95e-3f0f">
               <infoLinks>
                 <infoLink name="Outflank" id="3f8f-a698-0b4b-66f4" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285"/>
               </infoLinks>
@@ -8627,7 +9102,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wartrakk" hidden="false" id="818a-6d27-a51b-a162">
+            <selectionEntry type="model" import="true" name="Wartrakk" hidden="false" id="818a-6d27-a51b-a162">
               <infoLinks>
                 <infoLink name="Outflank" id="71dd-fabf-0322-c9dd" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285"/>
                 <infoLink name="Rumbler" id="b2dc-7acf-9227-09b1" hidden="false" type="rule" targetId="bf81-342f-87fb-491d"/>
@@ -8721,6 +9196,9 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="cbe7-4cc8-9c9c-97f1" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kustom Junka Squadron" hidden="false" id="d121-fab4-2d01-4914">
       <costs>
@@ -9178,7 +9656,17 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
         <categoryLink targetId="0ea2-efb5-b7af-226e" id="20cb-acd4-7e31-7136" primary="false" name="Fast Sub-type"/>
         <categoryLink targetId="625a-e287-1d8b-79d6" id="57b5-0887-d7eb-9ee7" primary="false" name="Open-topped"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Great Clans of the Orks" hidden="false" id="3348-73dc-0362-a655" type="selectionEntryGroup" targetId="152a-ab72-32bd-8cc5"/>
+      </entryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Snakebites" hidden="false" id="839d-a319-4db1-56ab"/>
+    <selectionEntry type="upgrade" import="true" name="Bad Moons" hidden="false" id="8372-da27-3575-d653"/>
+    <selectionEntry type="upgrade" import="true" name="Blood Axes" hidden="false" id="44c8-f3da-c618-bc2d"/>
+    <selectionEntry type="upgrade" import="true" name="Deathskulls" hidden="false" id="d845-c53c-1147-5896"/>
+    <selectionEntry type="upgrade" import="true" name="Evil Sunz" hidden="false" id="1edc-dff4-8135-7298"/>
+    <selectionEntry type="upgrade" import="true" name="Goffs" hidden="false" id="7b1a-a5c3-28bd-f737"/>
+    <selectionEntry type="upgrade" import="true" name="None" hidden="false" id="2024-a28a-360e-aa09"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="false" name="Boyz Mob" hidden="false" id="1f68-22d4-f782-683a" type="selectionEntry" targetId="1179-9f71-5fb8-9c7f">
@@ -9199,11 +9687,7 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="ee89-8d75-aa19-213d" primary="true" name="Troops:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Gretchin Mob" hidden="false" id="a4a6-71be-20f0-9337" type="selectionEntry" targetId="1d4b-810a-94f4-b9dc">
-      <categoryLinks>
-        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f675-5147-f6d7-aa68" primary="true" name="Troops:"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink import="true" name="Gretchin Mob" hidden="false" id="a4a6-71be-20f0-9337" type="selectionEntry" targetId="1d4b-810a-94f4-b9dc"/>
     <entryLink import="true" name="Killa Kan Mob" hidden="false" id="3850-5b44-b996-f8b2" type="selectionEntry" targetId="ade3-e0d5-93dc-307a">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="0829-01dc-8645-776d" primary="true" name="Troops:"/>
@@ -9432,6 +9916,10 @@ In addition, a model with a Deffkopta that chooses to Run gains the Shrouded (
       <categoryLinks>
         <categoryLink targetId="e90d-e5a8-f42d-da84" id="f1dd-069a-01ff-c540" primary="true" name="Allegiance:"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2afd-6f41-3dbb-73ec" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c6d-7421-1ec9-7244" includeChildSelections="false"/>
+      </constraints>
     </entryLink>
   </entryLinks>
   <catalogueLinks>
@@ -9566,5 +10054,124 @@ In addition, an army whose Warlord has this Trait may make an additional Reacti
         <entryLink import="true" name="Generic Warlord Traits" hidden="false" id="3236-d1ee-33ee-eee8" collective="false" targetId="c064-819f-d9ef-1775" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Great Clans of the Orks" id="152a-ab72-32bd-8cc5" hidden="true">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="a923-346e-c3b2-c0e4" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="e8f7-8b93-8777-b138">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="a923-346e-c3b2-c0e4" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e8f7-8b93-8777-b138" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2e9-c235-a1b2-253d" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Snakebites" hidden="true" id="121f-5e04-fb9a-7b2a" type="selectionEntry" targetId="839d-a319-4db1-56ab">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="839d-a319-4db1-56ab" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Deathskulls" hidden="true" id="bfa4-f8b0-9e4e-44b5" type="selectionEntry" targetId="d845-c53c-1147-5896">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d845-c53c-1147-5896" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Blood Axes" hidden="true" id="f68b-3466-d3e4-9519" type="selectionEntry" targetId="44c8-f3da-c618-bc2d">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="44c8-f3da-c618-bc2d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Blood Axes" id="2b00-ee10-e2e8-badb" hidden="false">
+              <description>Any Blood Axes model with the Light Unit Sub-type additionally gains the Skirmish Unit Sub-type.</description>
+            </rule>
+          </rules>
+          <comment>TODO: Maybe auto add skirmish to light </comment>
+        </entryLink>
+        <entryLink import="true" name="None" hidden="true" id="be00-3557-5d7b-8599" type="selectionEntry" targetId="2024-a28a-360e-aa09">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="2024-a28a-360e-aa09" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Evil Sunz" hidden="true" id="1e30-4c1a-bfde-20dd" type="selectionEntry" targetId="1edc-dff4-8135-7298">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="1edc-dff4-8135-7298" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Goffs" hidden="true" id="46c4-140a-c532-54ec" type="selectionEntry" targetId="7b1a-a5c3-28bd-f737">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b1a-a5c3-28bd-f737" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Bad Moons" hidden="true" id="95e2-4c2e-2a70-5d52" type="selectionEntry" targetId="8372-da27-3575-d653">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="8372-da27-3575-d653" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Bad Moons" id="b4bc-87e7-5bcb-d551" hidden="false">
+              <description>Any Assault weapon wielded by a Bad Moons model with the &apos;Ere We Go! special rule gains the More Dakka (1) special rule.</description>
+            </rule>
+          </rules>
+          <comment>TODO: Maybe auto add More Dakka to assault weapons</comment>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mekaniak Kults" id="d51f-50c1-44e5-7b1b" hidden="false"/>
   </sharedSelectionEntryGroups>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="false" name="Mekaniak Kults" hidden="true" id="9547-6a91-7e2f-3851">
+      <entryLinks>
+        <entryLink import="true" name="Mekaniak Kults" hidden="false" id="a4ec-b645-3243-55b7" type="selectionEntryGroup" targetId="d51f-50c1-44e5-7b1b"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1224-35b8-2854-6955" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22bd-3e67-c572-0d04" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="8e4c-3c75-8633-e157" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="9b76-eb16-cdd8-2d6d" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
