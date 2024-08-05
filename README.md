@@ -15,11 +15,4 @@ Easily added to NewRecruit: https://www.newrecruit.eu/app/MySystems
 ![image](https://github.com/user-attachments/assets/f5eaffd0-b76a-402f-ad84-9c81191a17fd)
 
 Paste https://github.com/harrisoncrazy/horus-heresy-Orks in the URL box, and you should be able to import and create an Orks army list!
-
-
-## Links ##
-
-* [BSData organization homepage][BSData.net]
-
-[BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/horus-heresy/issues/new/choose
+![image](https://github.com/user-attachments/assets/1c059551-819b-4e52-9d60-e75a1b056f4d)
