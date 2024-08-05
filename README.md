@@ -10,6 +10,13 @@ Liber Xenos: Orks
 
 Grunt work done by HarrisonCrazy. 
 
+Easily added to NewRecruit: https://www.newrecruit.eu/app/MySystems
+![image](https://github.com/user-attachments/assets/52022201-c12b-4174-9924-5cb32bc54ce3)
+![image](https://github.com/user-attachments/assets/f5eaffd0-b76a-402f-ad84-9c81191a17fd)
+
+Paste https://github.com/harrisoncrazy/horus-heresy-Orks in the URL box, and you should be able to import and create an Orks army list!
+
+
 ## Links ##
 
 * [BSData organization homepage][BSData.net]
