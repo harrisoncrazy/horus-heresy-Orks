@@ -4450,7 +4450,7 @@ Warp.</description>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Nob with Waaagh! Banner" hidden="false" id="990a-315f-b87a-a768">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="36"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c70-9c01-dba9-56af"/>
