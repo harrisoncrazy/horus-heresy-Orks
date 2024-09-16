@@ -2595,6 +2595,12 @@ A model with the Biggest and Best special rule must be the Warlord. An army that
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccfd-f40d-4003-c170" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Power Klaw" hidden="false" id="b7cc-f71f-3a04-7baf" type="selectionEntry" targetId="97b7-b9e8-fe86-6518">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ea9-4f0f-5c45-a338" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c588-dc16-9e53-f7ad" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Mega Arch Overlord" hidden="false" id="8827-7852-277a-84c7" sortIndex="1">
